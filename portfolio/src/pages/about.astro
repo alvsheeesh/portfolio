@@ -1,0 +1,170 @@
+﻿---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Skills: ajustes de nivel (0–100)
+const skillGroups = [
+  {
+    key: "about.skills.group1",
+    items: [
+      { name: "Java", level: 75 },
+      { name: "C++", level: 60 },
+      { name: "SQL", level: 80 },
+      { name: "HTML/CSS", level: 80 },
+      { name: "JavaScript", level: 60 },
+    ],
+  },
+  {
+    key: "about.skills.group2",
+    items: [
+      { name: "Git", level: 70 },
+      { name: "Linux", level: 80 },
+      { name: "Docker", level: 70 },
+      { name: "Networking", level: 90 },
+      { name: "Astro + Tailwind", level: 70 },
+    ],
+  },
+  {
+    key: "about.skills.group3",
+    items: [
+      { name: "Secure coding basics", level: 65 },
+      { name: "Hardening mindset", level: 60 },
+      { name: "Threat modeling (basic)", level: 50 },
+      { name: "Documentation", level: 100 },
+      { name: "Problem solving", level: 80 },
+    ],
+  },
+  {
+      key: "about.skills.group4",
+      items: [
+        { name: "Communication", level: 85 },
+        { name: "Teamwork", level: 90 },
+        { name: "Rapid learning", level: 95 },
+        { name: "Attention to detail", level: 90 },
+        { name: "Self‑management", level: 90 },
+      ],
+    },
+];
+---
+
+<BaseLayout title="About • Álvaro Silva" description="Background, skills, and goals.">
+  <section class="space-y-10">
+    <!-- HEADER -->
+    <header class="space-y-3">
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]"
+          data-i18n="about.title"></h1>
+
+      <p class="text-[color:var(--muted)] max-w-3xl"
+         data-i18n="about.subtitle"></p>
+
+      <!-- CTAs: CV -->
+      <div class="pt-2 flex flex-wrap gap-3">
+        <a class="btn btn-primary"
+           href="/cv-alvaro-silva.pdf"
+           download
+           data-i18n="about.cv.download"></a>
+
+        <a class="btn"
+           href="/cv"
+           data-i18n="about.cv.view"></a>
+      </div>
+
+      <p class="text-xs text-[color:var(--muted)]"
+         data-i18n="about.cv.note"></p>
+    </header>
+
+    <!-- GRID: BACKGROUND + QUICK FACTS -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Background -->
+      <article class="lg:col-span-2 rounded-2xl border border-border bg-card p-6 space-y-4">
+        <h2 class="text-xl font-semibold text-[color:var(--text)]"
+            data-i18n="about.section.background.title"></h2>
+
+        <div class="space-y-3 text-[color:var(--muted)]">
+          <p data-i18n="about.section.background.p1"></p>
+          <p data-i18n="about.section.background.p2"></p>
+        </div>
+
+        <!-- Education / Certs / Experience -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+
+          <!-- EDUCATION -->
+          <div class="rounded-xl border border-border bg-[color:var(--bg)] p-4">
+            <h3 class="font-semibold text-[color:var(--text)]"
+                data-i18n="about.section.education.title"></h3>
+            <ul class="mt-2 space-y-2 text-sm text-[color:var(--muted)]">
+              <li data-i18n="about.section.education.item1"></li>
+            </ul>
+          </div>
+
+          <!-- CERTIFICATIONS -->
+          <div class="rounded-xl border border-border bg-[color:var(--bg)] p-4">
+            <h3 class="font-semibold text-[color:var(--text)]"
+                data-i18n="about.section.certs.title"></h3>
+            <ul class="mt-2 space-y-2 text-sm text-[color:var(--muted)]">
+              <li data-i18n="about.section.certs.item1"></li>
+              <li data-i18n="about.section.certs.item2"></li>
+            </ul>
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="rounded-xl border border-border bg-[color:var(--bg)] p-4">
+            <h3 class="font-semibold text-[color:var(--text)]"
+                data-i18n="about.section.experience.title"></h3>
+            <ul class="mt-2 space-y-2 text-sm text-[color:var(--muted)]">
+              <li data-i18n="about.section.experience.item1"></li>
+              <li data-i18n="about.section.experience.item2"></li>
+            </ul>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- INTERESTS -->
+      <aside class="rounded-2xl border border-border bg-card p-6 space-y-5">
+        <h2 class="text-xl font-semibold text-[color:var(--text)]"
+            data-i18n="about.section.interests.title"></h2>
+
+        <ul class="list-disc pl-5 space-y-2 text-[color:var(--muted)]">
+          <li data-i18n="about.section.interests.item1"></li>
+          <li data-i18n="about.section.interests.item2"></li>
+          <li data-i18n="about.section.interests.item3"></li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- SKILLS -->
+    <section class="space-y-5">
+      <h2 class="text-xl font-semibold text-[color:var(--text)]"
+          data-i18n="about.skills.title"></h2>
+
+      <div class="grid gap-6 md:grid-cols-2">
+        {skillGroups.map((group) => (
+          <div class="rounded-2xl border border-border bg-card p-5">
+            <h3 class="font-medium text-[color:var(--text)]"
+                data-i18n={group.key}></h3>
+
+            <div class="mt-4 space-y-3">
+              {group.items.map((s) => (
+                <div>
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="text-[color:var(--text)]">{s.name}</span>
+                    <span class="text-[color:var(--muted)]">{s.level}%</span>
+                  </div>
+
+                  <div class="mt-1 h-2 w-full rounded-full bg-[color:var(--surface)]">
+                    <div
+                      class="h-2 rounded-full bg-[color:var(--accent)]"
+                      style={{ width: `${s.level}%` }}
+                      aria-hidden="true"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+  </section>
+</BaseLayout>

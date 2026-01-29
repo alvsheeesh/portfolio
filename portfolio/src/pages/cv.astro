@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="CV • Álvaro Silva" description="Online CV viewer with summary">
+  <section class="space-y-6">
+    <!-- Header -->
+    <header class="space-y-3">
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]" data-i18n="cv.title">CV</h1>
+      <p class="text-[color:var(--muted)] max-w-3xl" data-i18n="cv.summary">
+        Background, skills, interests and goals as a DAM student with a focus on cybersecurity, secure development and clear documentation.
+      </p>
+
+      <!-- CTAs -->
+      <div class="pt-2 flex flex-wrap gap-3">
+        <a
+          class="btn btn-primary"
+          href="/cv-alvaro-silva.pdf"
+          download
+          data-i18n="cv.buttons.download"
+          data-i18n-attr="title: cv.buttons.download; aria-label: cv.buttons.download"
+        >
+          Download CV (PDF)
+        </a>
+
+        <a
+          class="btn"
+          href="/about"
+          data-i18n="cv.buttons.back"
+          data-i18n-attr="title: cv.buttons.back; aria-label: cv.buttons.back"
+        >
+          About
+        </a>
+
+        <a
+          class="btn"
+          href="/cv-alvaro-silva.pdf"
+          target="_blank"
+          rel="noopener"
+          data-i18n="cv.buttons.openNew"
+          data-i18n-attr="title: cv.buttons.openNew; aria-label: cv.buttons.openNew"
+        >
+          Open in new tab
+        </a>
+      </div>
+
+      <p class="text-xs text-[color:var(--muted)]" data-i18n="cv.note">
+        The PDF is the canonical source and will be updated as new labs and projects are completed.
+      </p>
+    </header>
+
+    <!-- PDF Viewer -->
+    <div class="rounded-xl border border-[color:var(--border)] bg-card p-2 sm:p-3">
+      <!-- IFRAME (primary viewer) -->
+      <iframe
+        src="/cv-alvaro-silva.pdf#view=FitH"
+        title="CV PDF"
+        class="w-full rounded-lg"
+        style="height: min(85vh, 1000px); border: none; background: var(--surface);"
+      ></iframe>
+
+      <!-- Fallback -->
+      <div class="mt-3 text-sm text-[color:var(--muted)]">
+        <p data-i18n="cv.viewer.fallback">
+          If the PDF does not load, download it using the button above or open it in a new tab.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
