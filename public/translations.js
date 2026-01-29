@@ -1,6 +1,6 @@
-// public/translations.js
+Ôªø// public/translations.js
 // Diccionario i18n global para runtime en cliente (sin imports/exports).
-// Copia aquÌ el objeto completo desde src/i18n/translations.js
+// Copia aqu√≠ el objeto completo desde src/i18n/translations.js
 
 window.translations = {
     en: {
@@ -8,7 +8,7 @@ window.translations = {
         // General / shared
         // =========================
         "brand.short": "ASCH",
-        "brand.long": "¡lvaro Silva Ch·vez",
+        "brand.long": "√Ålvaro Silva Ch√°vez",
         "cta.viewProjects": "View projects",
         "cta.aboutMe": "About me",
         "cta.downloadCV": "Download CV",
@@ -46,11 +46,11 @@ window.translations = {
         "footer.langToggle": "Change language",
 
         // =========================
-        // Home (estructura principal que ya tenÌas)
+        // Home (estructura principal que ya ten√≠as)
         // =========================
-        "home.hero.kicker": "CFGS DAM ∑ Portfolio",
-        "home.hero.title": "¡lvaro Silva Ch·vez",
-        "home.hero.subtitle": "DAM Student ∑ Future Cybersecurity Specialist",
+        "home.hero.kicker": "CFGS DAM ¬∑ Portfolio",
+        "home.hero.title": "√Ålvaro Silva Ch√°vez",
+        "home.hero.subtitle": "DAM Student ¬∑ Future Cybersecurity Specialist",
         "home.hero.lead":
             "Academic portfolio documenting my progress in software development, systems, and security best practices.",
         "home.hero.actions.viewProjects": "View projects",
@@ -80,14 +80,14 @@ window.translations = {
             "Astro + Tailwind for the portfolio; scripting, containers, and practical security tooling for labs.",
         "home.faqs.q4": "Can I see your CV or contact you?",
         "home.faqs.a4":
-            "Yes ó download the PDF or view the online version, and use the contact page to reach me.",
+            "Yes ‚Äî download the PDF or view the online version, and use the contact page to reach me.",
 
         // =========================
         // About (alineado con about.astro actual)
         // =========================
         "about.title": "About",
-        "about.kicker": "Background ∑ Skills ∑ Interests",
-        // MantÈn 'subtitle' para tu about.astro (antes tenÌas 'intro' y 'kicker')
+        "about.kicker": "Background ¬∑ Skills ¬∑ Interests",
+        // Mant√©n 'subtitle' para tu about.astro (antes ten√≠as 'intro' y 'kicker')
         "about.subtitle":
             "Background, skills, interests and goals as a DAM student with a focus on cybersecurity, secure development and clear documentation.",
 
@@ -105,7 +105,7 @@ window.translations = {
 
         // Education / Certs / Experience
         "about.section.education.title": "Education",
-        "about.section.education.item1": "CFGS DAM ∑ Vedruna Vall Terrassa",
+        "about.section.education.item1": "CFGS DAM ¬∑ Vedruna Vall Terrassa",
 
         "about.section.certs.title": "Certifications",
         "about.section.certs.item1": "Introductory security labs and foundations (self-study)",
@@ -121,7 +121,7 @@ window.translations = {
         "about.section.interests.item2": "Clear documentation and knowledge sharing",
         "about.section.interests.item3": "Building a portfolio that shows real progress and practical value",
 
-        // Skills (tÌtulos de grupos)
+        // Skills (t√≠tulos de grupos)
         "about.skills.title": "Skills",
         "about.skills.group1": "Programming & Front-end",
         "about.skills.group2": "Tools & Systems",
@@ -132,7 +132,7 @@ window.translations = {
         // Projects
         // =========================
         "projects.title": "Projects",
-        "projects.kicker": "Selected work ∑ Labs ∑ Demos",
+        "projects.kicker": "Selected work ¬∑ Labs ¬∑ Demos",
         "projects.intro":
             "A curated list of academic projects and labs. Each card is sourced from projects.json and translated via keys.",
         "projects.tags": "Tags",
@@ -151,7 +151,7 @@ window.translations = {
         // Contact
         // =========================
         "contact.title": "Contact",
-        "contact.kicker": "Letís talk",
+        "contact.kicker": "Let‚Äôs talk",
         "contact.intro":
             "This is a demo form. You can also reach out via email.",
         "contact.form.name": "Name",
@@ -173,8 +173,8 @@ window.translations = {
         // Aliases para index.astro (claves cortas actuales)
         // =========================
         // Hero
-        "hero.kicker": "CFGS DAM ∑ Portfolio",
-        "hero.role": "DAM Student ∑ Future Cybersecurity Specialist",
+        "hero.kicker": "CFGS DAM ¬∑ Portfolio",
+        "hero.role": "DAM Student ¬∑ Future Cybersecurity Specialist",
         "hero.summary":
             "Academic portfolio documenting my progress in software development, systems, and security best practices.",
         "hero.cta.projects": "View projects",
@@ -194,21 +194,21 @@ window.translations = {
             "Quick answers about my profile and how I build projects.",
         "faq.q1.q": "What am I focusing on right now?",
         "faq.q1.a":
-            "Iím focusing on core development skills and security fundamentalsÖ",
+            "I‚Äôm focusing on core development skills and security fundamentals‚Ä¶",
         "faq.q2.q": "Why cybersecurity?",
         "faq.q2.a":
-            "I like the combination of systems, networking and secure softwareÖ",
+            "I like the combination of systems, networking and secure software‚Ä¶",
         "faq.q3.q": "What kind of projects will you publish?",
         "faq.q3.a":
-            "Academic projects, tooling, labs and writeups (without sensitive details)Ö",
+            "Academic projects, tooling, labs and writeups (without sensitive details)‚Ä¶",
         "faq.q4.q": "Do you self-host anything?",
         "faq.q4.a":
-            "Iím building a hybrid setup: static front-end + NAS lab for servicesÖ",
+            "I‚Äôm building a hybrid setup: static front-end + NAS lab for services‚Ä¶",
         "faq.q5.q": "How can someone contact you?",
-        "faq.q5.a": "Use the contact page or email ó the form is demo-only for security.",
+        "faq.q5.a": "Use the contact page or email ‚Äî the form is demo-only for security.",
 
 
-        // EN ó CV
+        // EN ‚Äî CV
         "cv.title": "CV",
         "cv.summary": "Background, skills, interests and goals as a DAM student with a focus on cybersecurity, secure development and clear documentation.",
         "cv.buttons.download": "Download CV (PDF)",
@@ -248,19 +248,19 @@ window.translations = {
         "proj.portfolio.title": "Portfolio Website",
         "proj.portfolio.desc": "Bilingual portfolio built with Astro + Tailwind, dark mode by default, custom i18n and clean components.",
         "proj.portfolio.alt": "Portfolio homepage cover image",
-        "hero.photo.alt": "Professional headshot of ¡lvaro Silva"
+        "hero.photo.alt": "Professional headshot of √Ålvaro Silva"
     },
     es: {
         // =========================
         // General / compartido
         // =========================
         "brand.short": "ASCH",
-        "brand.long": "¡lvaro Silva Ch·vez",
+        "brand.long": "√Ålvaro Silva Ch√°vez",
         "cta.viewProjects": "Ver proyectos",
-        "cta.aboutMe": "Sobre mÌ",
+        "cta.aboutMe": "Sobre m√≠",
         "cta.downloadCV": "Descargar CV",
         "cta.viewCVOnline": "Ver CV online",
-        "cta.readMore": "Leer m·s",
+        "cta.readMore": "Leer m√°s",
         "cta.contactMe": "Contactar",
         "cta.send": "Enviar",
         "cta.open": "Abrir",
@@ -269,23 +269,23 @@ window.translations = {
         "status.new": "Nuevo",
         "status.inProgress": "En progreso",
         "status.done": "Completado",
-        "status.soon": "PrÛximamente",
+        "status.soon": "Pr√≥ximamente",
         "status.archived": "Archivado",
 
         // =========================
-        // NavegaciÛn / Header / Footer
+        // Navegaci√≥n / Header / Footer
         // =========================
         "nav.home": "Inicio",
-        "nav.about": "Sobre mÌ",
+        "nav.about": "Sobre m√≠",
         "nav.projects": "Proyectos",
         "nav.contact": "Contacto",
 
-        "header.menu": "Men˙",
+        "header.menu": "Men√∫",
         "header.skipToContent": "Saltar al contenido",
 
         "footer.rights": "Todos los derechos reservados.",
         "footer.contact": "Contacto",
-        "footer.follow": "SÌgueme",
+        "footer.follow": "S√≠gueme",
         "footer.github": "GitHub",
         "footer.linkedin": "LinkedIn",
         "footer.madeWith": "Construido con Astro + Tailwind.",
@@ -295,106 +295,106 @@ window.translations = {
         // =========================
         // Home
         // =========================
-        "home.hero.kicker": "CFGS DAM ∑ Portfolio",
-        "home.hero.title": "¡lvaro Silva Ch·vez",
-        "home.hero.subtitle": "Estudiante DAM ∑ Futuro especialista en Ciberseguridad",
+        "home.hero.kicker": "CFGS DAM ¬∑ Portfolio",
+        "home.hero.title": "√Ålvaro Silva Ch√°vez",
+        "home.hero.subtitle": "Estudiante DAM ¬∑ Futuro especialista en Ciberseguridad",
         "home.hero.lead":
-            "Portfolio acadÈmico documentando mi progreso en desarrollo de software, sistemas y buenas pr·cticas de seguridad.",
+            "Portfolio acad√©mico documentando mi progreso en desarrollo de software, sistemas y buenas pr√°cticas de seguridad.",
         "home.hero.actions.viewProjects": "Ver proyectos",
-        "home.hero.actions.aboutMe": "Sobre mÌ",
+        "home.hero.actions.aboutMe": "Sobre m√≠",
 
         "home.cards.1.title": "Nuevo",
         "home.cards.1.desc":
-            "Estudiante DAM construyendo proyectos y documentaciÛn.",
+            "Estudiante DAM construyendo proyectos y documentaci√≥n.",
         "home.cards.2.title": "Enfoque",
         "home.cards.2.desc":
-            "Buenas pr·cticas de seguridad aplicadas, hardening y despliegues limpios.",
+            "Buenas pr√°cticas de seguridad aplicadas, hardening y despliegues limpios.",
         "home.cards.3.title": "Objetivo",
         "home.cards.3.desc":
-            "Hub p˙blico + laboratorio conectado (QNAP) para mostrar el trabajo.",
+            "Hub p√∫blico + laboratorio conectado (QNAP) para mostrar el trabajo.",
 
         "home.faqs.title": "FAQs",
         "home.faqs.desc":
-            "Respuestas r·pidas sobre mi perfil y cÛmo construyo proyectos.",
-        "home.faqs.q1": "øEn quÈ me estoy enfocando ahora?",
+            "Respuestas r√°pidas sobre mi perfil y c√≥mo construyo proyectos.",
+        "home.faqs.q1": "¬øEn qu√© me estoy enfocando ahora?",
         "home.faqs.a1":
             "Aprender desarrollo seguro, montar un homelab (QNAP) y documentarlo todo de forma clara.",
-        "home.faqs.q2": "øCÛmo aplico seguridad en los proyectos?",
+        "home.faqs.q2": "¬øC√≥mo aplico seguridad en los proyectos?",
         "home.faqs.a2":
-            "Modelado de amenazas, mÌnimo privilegio, configuraciones seguras por defecto, higiene de secretos y despliegues reproducibles.",
-        "home.faqs.q3": "øQuÈ herramientas o stack uso?",
+            "Modelado de amenazas, m√≠nimo privilegio, configuraciones seguras por defecto, higiene de secretos y despliegues reproducibles.",
+        "home.faqs.q3": "¬øQu√© herramientas o stack uso?",
         "home.faqs.a3":
-            "Astro + Tailwind para el portfolio; scripting, contenedores y herramientas pr·cticas de seguridad para los labs.",
-        "home.faqs.q4": "øPuedo ver tu CV o contactarte?",
+            "Astro + Tailwind para el portfolio; scripting, contenedores y herramientas pr√°cticas de seguridad para los labs.",
+        "home.faqs.q4": "¬øPuedo ver tu CV o contactarte?",
         "home.faqs.a4":
-            "SÌ ó descarga el PDF o consulta la versiÛn online, y usa la p·gina de contacto para escribirme.",
+            "S√≠ ‚Äî descarga el PDF o consulta la versi√≥n online, y usa la p√°gina de contacto para escribirme.",
 
         // =========================
         // About
         // =========================
-        "about.title": "Sobre mÌ",
-        "about.kicker": "Trayectoria ∑ Skills ∑ Intereses",
+        "about.title": "Sobre m√≠",
+        "about.kicker": "Trayectoria ¬∑ Skills ¬∑ Intereses",
         "about.subtitle":
-            "Trayectoria, skills, intereses y objetivos como estudiante de DAM con foco en ciberseguridad, desarrollo seguro y documentaciÛn clara.",
+            "Trayectoria, skills, intereses y objetivos como estudiante de DAM con foco en ciberseguridad, desarrollo seguro y documentaci√≥n clara.",
 
         // CTAs CV
         "about.cv.download": "Descargar CV (PDF)",
         "about.cv.view": "Ver CV online",
-        "about.cv.note": "ActualizarÈ el CV periÛdicamente conforme complete nuevos labs y proyectos.",
+        "about.cv.note": "Actualizar√© el CV peri√≥dicamente conforme complete nuevos labs y proyectos.",
 
         // Background / Story
         "about.section.background.title": "Trayectoria",
         "about.section.background.p1":
             "Soy estudiante de CFGS DAM en Vedruna Vall Terrassa. Me gusta construir soluciones limpias y entendibles, y documentar lo que aprendo.",
         "about.section.background.p2":
-            "Mi enfoque actual es aplicar pr·cticas secure-by-default en proyectos acadÈmicos y montar un homelab (QNAP) para explorar servicios y despliegues de forma segura.",
+            "Mi enfoque actual es aplicar pr√°cticas secure-by-default en proyectos acad√©micos y montar un homelab (QNAP) para explorar servicios y despliegues de forma segura.",
 
-        // EducaciÛn / Certificaciones / Experiencia
-        "about.section.education.title": "FormaciÛn",
-        "about.section.education.item1": "CFGS DAM ∑ Vedruna Vall Terrassa",
+        // Educaci√≥n / Certificaciones / Experiencia
+        "about.section.education.title": "Formaci√≥n",
+        "about.section.education.item1": "CFGS DAM ¬∑ Vedruna Vall Terrassa",
 
         "about.section.certs.title": "Certificaciones",
         "about.section.certs.item1":
-            "Laboratorios introductorios y fundamentos de seguridad (autoformaciÛn)",
+            "Laboratorios introductorios y fundamentos de seguridad (autoformaci√≥n)",
         "about.section.certs.item2":
-            "Laboratorios pr·cticos de Linux y redes (en progreso)",
+            "Laboratorios pr√°cticos de Linux y redes (en progreso)",
 
         "about.section.experience.title": "Experiencia",
         "about.section.experience.item1":
-            "Proyectos acadÈmicos con Ènfasis en pr·cticas de seguridad",
+            "Proyectos acad√©micos con √©nfasis en pr√°cticas de seguridad",
         "about.section.experience.item2":
             "Homelab (QNAP): servicios, control de accesos y copias",
 
         // Intereses y objetivos
-        "about.section.interests.title": "Intereses, objetivos y motivaciÛn",
-        "about.section.interests.item1": "CÛdigo seguro, hardening y despliegues reproducibles",
-        "about.section.interests.item2": "DocumentaciÛn clara y comparticiÛn de conocimiento",
-        "about.section.interests.item3": "Construir un portfolio que muestre progreso real y valor pr·ctico",
+        "about.section.interests.title": "Intereses, objetivos y motivaci√≥n",
+        "about.section.interests.item1": "C√≥digo seguro, hardening y despliegues reproducibles",
+        "about.section.interests.item2": "Documentaci√≥n clara y compartici√≥n de conocimiento",
+        "about.section.interests.item3": "Construir un portfolio que muestre progreso real y valor pr√°ctico",
 
-        // Skills (tÌtulos de grupos)
+        // Skills (t√≠tulos de grupos)
         "about.skills.title": "Skills",
-        "about.skills.group1": "ProgramaciÛn y Front-end",
+        "about.skills.group1": "Programaci√≥n y Front-end",
         "about.skills.group2": "Herramientas y Sistemas",
-        "about.skills.group3": "Seguridad y pr·cticas clave",
+        "about.skills.group3": "Seguridad y pr√°cticas clave",
         "about.skills.group4": "Competencias Blandas",
 
         // =========================
         // Projects
         // =========================
         "projects.title": "Proyectos",
-        "projects.kicker": "Trabajo seleccionado ∑ Labs ∑ Demos",
+        "projects.kicker": "Trabajo seleccionado ¬∑ Labs ¬∑ Demos",
         "projects.intro":
-            "Lista curada de proyectos acadÈmicos y labs. Cada tarjeta viene de projects.json y se traduce por claves.",
+            "Lista curada de proyectos acad√©micos y labs. Cada tarjeta viene de projects.json y se traduce por claves.",
         "projects.tags": "Etiquetas",
         "projects.links": "Enlaces",
-        "projects.empty": "A˙n no hay proyectos para mostrar.",
+        "projects.empty": "A√∫n no hay proyectos para mostrar.",
         "projects.card.status": "Estado",
 
         // Estados (para projects.json -> statusKey)
         "projects.status.new": "Nuevo",
         "projects.status.inProgress": "En progreso",
         "projects.status.done": "Completado",
-        "projects.status.soon": "PrÛximamente",
+        "projects.status.soon": "Pr√≥ximamente",
         "projects.status.archived": "Archivado",
 
         // =========================
@@ -403,84 +403,84 @@ window.translations = {
         "contact.title": "Contacto",
         "contact.kicker": "Hablemos",
         "contact.intro":
-            "Este es un formulario de demostraciÛn. TambiÈn puedes escribir por email.",
+            "Este es un formulario de demostraci√≥n. Tambi√©n puedes escribir por email.",
         "contact.form.name": "Nombre",
         "contact.form.email": "Correo",
         "contact.form.message": "Mensaje",
         "contact.form.submit": "Enviar",
-        "contact.altEmail": "O cont·ctame por email:",
+        "contact.altEmail": "O cont√°ctame por email:",
         // Placeholders (para data-i18n-attr)
         "contact.placeholder.name": "Tu nombre",
         "contact.placeholder.email": "tu@email.com",
-        "contact.placeholder.message": "øCÛmo puedo ayudar?",
-        // ARIA / tÌtulos (para data-i18n-attr)
+        "contact.placeholder.message": "¬øC√≥mo puedo ayudar?",
+        // ARIA / t√≠tulos (para data-i18n-attr)
         "aria.toggleTheme": "Cambiar tema",
         "aria.toggleLanguage": "Cambiar idioma",
-        "aria.openMenu": "Abrir men˙",
-        "aria.closeMenu": "Cerrar men˙",
+        "aria.openMenu": "Abrir men√∫",
+        "aria.closeMenu": "Cerrar men√∫",
 
         // =========================
         // Aliases para index.astro (claves cortas actuales)
         // =========================
         // Hero
-        "hero.kicker": "CFGS DAM ∑ Portfolio",
-        "hero.role": "Estudiante DAM ∑ Futuro especialista en Ciberseguridad",
+        "hero.kicker": "CFGS DAM ¬∑ Portfolio",
+        "hero.role": "Estudiante DAM ¬∑ Futuro especialista en Ciberseguridad",
         "hero.summary":
-            "Portfolio acadÈmico documentando mi progreso en desarrollo de software, sistemas y buenas pr·cticas de seguridad.",
+            "Portfolio acad√©mico documentando mi progreso en desarrollo de software, sistemas y buenas pr√°cticas de seguridad.",
         "hero.cta.projects": "Ver proyectos",
-        "hero.cta.about": "Sobre mÌ",
+        "hero.cta.about": "Sobre m√≠",
 
         // Cards
         "card.now.title": "Nuevo",
-        "card.now.body": "Estudiante DAM construyendo proyectos y documentaciÛn.",
+        "card.now.body": "Estudiante DAM construyendo proyectos y documentaci√≥n.",
         "card.focus.title": "Enfoque",
-        "card.focus.body": "Seguridad aplicada: buenas pr·cticas, hardening y despliegues limpios.",
+        "card.focus.body": "Seguridad aplicada: buenas pr√°cticas, hardening y despliegues limpios.",
         "card.goal.title": "Objetivo",
-        "card.goal.body": "Hub p˙blico + laboratorio controlado (NAS) para mostrar el trabajo.",
+        "card.goal.body": "Hub p√∫blico + laboratorio controlado (NAS) para mostrar el trabajo.",
 
         // FAQs
         "faq.title": "FAQs",
         "faq.subtitle":
-            "Respuestas r·pidas sobre mi perfil y cÛmo construyo proyectos.",
-        "faq.q1.q": "øEn quÈ me estoy enfocando ahora?",
+            "Respuestas r√°pidas sobre mi perfil y c√≥mo construyo proyectos.",
+        "faq.q1.q": "¬øEn qu√© me estoy enfocando ahora?",
         "faq.q1.a":
-            "Estoy centrado en habilidades de desarrollo base y fundamentos de seguridadÖ",
-        "faq.q2.q": "øPor quÈ ciberseguridad?",
+            "Estoy centrado en habilidades de desarrollo base y fundamentos de seguridad‚Ä¶",
+        "faq.q2.q": "¬øPor qu√© ciberseguridad?",
         "faq.q2.a":
-            "Me gusta la combinaciÛn de sistemas, redes y software seguroÖ",
-        "faq.q3.q": "øQuÈ tipo de proyectos publicar·s?",
+            "Me gusta la combinaci√≥n de sistemas, redes y software seguro‚Ä¶",
+        "faq.q3.q": "¬øQu√© tipo de proyectos publicar√°s?",
         "faq.q3.a":
-            "Proyectos acadÈmicos, tooling, labs y writeups (sin detalles sensibles)Ö",
-        "faq.q4.q": "øAutoalojas alg˙n servicio?",
+            "Proyectos acad√©micos, tooling, labs y writeups (sin detalles sensibles)‚Ä¶",
+        "faq.q4.q": "¬øAutoalojas alg√∫n servicio?",
         "faq.q4.a":
-            "Estoy montando un setup hÌbrido: front est·tico + NAS lab para serviciosÖ",
-        "faq.q5.q": "øCÛmo pueden contactarte?",
+            "Estoy montando un setup h√≠brido: front est√°tico + NAS lab para servicios‚Ä¶",
+        "faq.q5.q": "¬øC√≥mo pueden contactarte?",
         "faq.q5.a":
-            "Usa la p·gina de contacto o email ó el formulario es solo demo por seguridad.",
+            "Usa la p√°gina de contacto o email ‚Äî el formulario es solo demo por seguridad.",
 
-        // ES ó CV
+        // ES ‚Äî CV
         "cv.title": "CV",
-        "cv.summary": "Trayectoria, skills, intereses y objetivos como estudiante de DAM con foco en ciberseguridad, desarrollo seguro y documentaciÛn clara.",
+        "cv.summary": "Trayectoria, skills, intereses y objetivos como estudiante de DAM con foco en ciberseguridad, desarrollo seguro y documentaci√≥n clara.",
         "cv.buttons.download": "Descargar CV (PDF)",
-        "cv.buttons.back": "Sobre mÌ",
-        "cv.buttons.openNew": "Abrir en nueva pestaÒa",
-        "cv.note": "El PDF es la fuente canÛnica y se actualizar· conforme complete nuevos labs y proyectos.",
-        "cv.viewer.fallback": "Si el PDF no se carga, desc·rgalo con el botÛn de arriba o ·brelo en una pestaÒa nueva.",
+        "cv.buttons.back": "Sobre m√≠",
+        "cv.buttons.openNew": "Abrir en nueva pesta√±a",
+        "cv.note": "El PDF es la fuente can√≥nica y se actualizar√° conforme complete nuevos labs y proyectos.",
+        "cv.viewer.fallback": "Si el PDF no se carga, desc√°rgalo con el bot√≥n de arriba o √°brelo en una pesta√±a nueva.",
         "contact.form.title": "Enviar un mensaje",
-        "contact.form.notice": "Este formulario no envÌa datos. Usa el botÛn de email de abajo.",
+        "contact.form.notice": "Este formulario no env√≠a datos. Usa el bot√≥n de email de abajo.",
         "contact.form.subject": "Asunto",
         "contact.form.send": "Enviar",
         "contact.form.mailto": "Contactar por email",
         "contact.placeholder.subject": "Asunto",
 
         "contact.side.title": "Otras formas de contacto",
-        "contact.side.p1": "TambiÈn puedes escribirme por email o mediante mis perfiles profesionales:",
+        "contact.side.p1": "Tambi√©n puedes escribirme por email o mediante mis perfiles profesionales:",
         "contact.side.emailLabel": "Correo:",
-        "contact.side.phoneLabel": "TelÈfono:",
-        "contact.side.locationLabel": "UbicaciÛn:",
+        "contact.side.phoneLabel": "Tel√©fono:",
+        "contact.side.locationLabel": "Ubicaci√≥n:",
         "contact.side.socialTitle": "Redes",
         "contact.side.mapTitle": "Mapa",
-        "contact.side.cta": "EscrÌbeme",
+        "contact.side.cta": "Escr√≠beme",
         "contact.side.openProfile": "Abrir perfil",
 
         "contact.social.github": "GitHub",
@@ -488,14 +488,14 @@ window.translations = {
         "contact.social.email": "Correo",
         "projects.preview.open": "Abrir vista previa",
         "proj.qnapMinecraft.title": "Servidor de Minecraft en NAS QNAP",
-        "proj.qnapMinecraft.desc": "Montaje y hosting de un servidor de Minecraft en un NAS QNAP: servicio en contenedor, control de accesos, copias y documentaciÛn clara.",
+        "proj.qnapMinecraft.desc": "Montaje y hosting de un servidor de Minecraft en un NAS QNAP: servicio en contenedor, control de accesos, copias y documentaci√≥n clara.",
         "proj.qnapMinecraft.alt": "Captura del servidor de Minecraft alojado en un NAS QNAP",
-        "proj.packetTracer.title": "DiseÒo y simulaciÛn de red (Packet Tracer)",
-        "proj.packetTracer.desc": "DiseÒo por capas, VLANs, plan de direccionamiento y conceptos b·sicos de routing simulados en Packet Tracer.",
-        "proj.packetTracer.alt": "Captura del diagrama de topologÌa en Cisco Packet Tracer",
-        "proj.portfolio.title": "P·gina web de portfolio",
-        "proj.portfolio.desc": "Portfolio biling¸e construido con Astro + Tailwind, modo oscuro por defecto, i18n propio y componentes limpios.",
+        "proj.packetTracer.title": "Dise√±o y simulaci√≥n de red (Packet Tracer)",
+        "proj.packetTracer.desc": "Dise√±o por capas, VLANs, plan de direccionamiento y conceptos b√°sicos de routing simulados en Packet Tracer.",
+        "proj.packetTracer.alt": "Captura del diagrama de topolog√≠a en Cisco Packet Tracer",
+        "proj.portfolio.title": "P√°gina web de portfolio",
+        "proj.portfolio.desc": "Portfolio biling√ºe construido con Astro + Tailwind, modo oscuro por defecto, i18n propio y componentes limpios.",
         "proj.portfolio.alt": "Imagen de portada de la home del portfolio",
-        "hero.photo.alt": "Foto profesional de ¡lvaro Silva"
+        "hero.photo.alt": "Foto profesional de √Ålvaro Silva"
     },
 };
