@@ -1,0 +1,53 @@
+[
+  {
+    "id": "qnap-minecraft",
+    "titleKey": "proj.qnapMinecraft.title",
+    "descKey": "proj.qnapMinecraft.desc",
+    "statusKey": "projects.status.inProgress",
+    "tags": [ "homelab", "qnap", "minecraft", "docs" ],
+    "previewType": "image",
+    "image": "/projects/qnap-minecraft.jpg",
+    "imageAltKey": "proj.qnapMinecraft.alt",
+    "previewUrl": "/projects/qnap-minecraft.jpg",
+    "links": [
+      {
+        "labelKey": "footer.github",
+        "url": "https://github.com/your-username/qnap-minecraft"
+      }
+    ]
+  },
+  {
+    "id": "packet-tracer-network",
+    "titleKey": "proj.packetTracer.title",
+    "descKey": "proj.packetTracer.desc",
+    "statusKey": "projects.status.done",
+    "tags": [ "networking", "packet-tracer", "simulation" ],
+    "previewType": "image",
+    "image": "/projects/packet-tracer.jpg",
+    "imageAltKey": "proj.packetTracer.alt",
+    "previewUrl": "/projects/packet-tracer.jpg",
+    "links": [
+      {
+        "labelKey": "cta.readMore",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": "portfolio-site",
+    "titleKey": "proj.portfolio.title",
+    "descKey": "proj.portfolio.desc",
+    "statusKey": "projects.status.new",
+    "tags": [ "astro", "tailwind", "i18n" ],
+    "previewType": "pdf",
+    "image": "/projects/portfolio-cover.jpg",
+    "imageAltKey": "proj.portfolio.alt",
+    "previewUrl": "/projects/portfolio-cover.jpg",
+    "links": [
+      {
+        "labelKey": "footer.github",
+        "url": "https://github.com/your-username/portfolio-asch-clean"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+﻿---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const { title = "Portfolio", description = "" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Theme before paint -->
+    <script is:inline>
+      const key = "theme";
+      let saved = null;
+      try { saved = localStorage.getItem(key); } catch {}
+      const theme = (saved === "light" || saved === "dark") ? saved : "dark";
+      document.documentElement.classList.toggle("dark", theme === "dark");
+    </script>
+
+    <!-- Theme handler -->
+    <script src="/theme.js" defer></script>
+
+    <!-- i18n (única fuente) -->
+    <script type="module" src="/src/i18n/client-init.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+
+
+        <!-- Favicon (claro por defecto) -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" data-favicon-light>
+
+        <!-- Favicon (oscuro) -->
+        <link rel="icon" type="image/svg+xml" href="/favicon-dark.svg?v=2" data-favicon-dark>
+
+        <!-- (Opcional) PNG fallbacks si los tienes -->
+        <!--
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" data-favicon-light-png>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-dark-32x32.png?v=2" data-favicon-dark-png>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+
+      <!-- Apple touch icon (iOS) -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1" />
+
+      <!-- Manifest (opcional si lo añades) -->
+      <link rel="manifest" href="/site.webmanifest" />
+
+      <!-- Theme color para UI del navegador -->
+      <meta name="theme-color" content="#0b1220" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+
+  </head>
+
+  <body class="min-h-screen">
+    <Header />
+
+    <main class="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

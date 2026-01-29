@@ -1,0 +1,100 @@
+﻿---
+import ThemeToggle from "./ThemeToggle.astro";
+import LangToggle from "./LangToggle.astro";
+
+const pathname = Astro.url.pathname;
+
+// Normaliza "/" y elimina trailing slash
+const normalize = (p) => (p.endsWith("/") && p.length > 1 ? p.slice(0, -1) : p);
+const current = normalize(pathname);
+const isActive = (href) => normalize(href) === current;
+
+// Links con key i18n y texto base (SSR-friendly)
+const links = [
+  { href: "/", key: "nav.home", label: "Home" },
+  { href: "/about", key: "nav.about", label: "About" },
+  { href: "/projects", key: "nav.projects", label: "Projects" },
+  { href: "/contact", key: "nav.contact", label: "Contact" },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-[color:var(--border)] bg-[color:var(--bg)]/85 backdrop-blur">
+  <div class="mx-auto flex max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
+    
+      <!-- Logo / Branding -->
+    <a href="/" class="flex items-center gap-2 font-semibold tracking-wide hover:text-[color:var(--accent)] transition">
+      <img
+        src="/logo-dark.svg"
+        width="28"
+        height="28"
+        alt="ASCH logo"
+        data-theme-logo
+      />
+      <span class="sr-only">ASCH</span>
+      <span class="hidden sm:inline">ASCH</span>
+    </a>
+
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-1">
+      {links.map((l) => (
+        <a
+          href={l.href}
+          class={`nav-link ${isActive(l.href) ? "nav-link--active" : ""}`}
+          aria-current={isActive(l.href) ? "page" : undefined}
+          data-i18n={l.key}
+        >
+          {l.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Right Controls: Language + Theme + Mobile Menu -->
+    <div class="flex items-center gap-2">
+      <LangToggle />
+      <ThemeToggle />
+
+      <!-- Mobile Menu -->
+      <details class="md:hidden relative">
+        <summary
+          class="btn select-none list-none cursor-pointer px-3 py-2"
+          aria-label="Menu"
+        >
+          ≡
+        </summary>
+        <div class="absolute right-0 mt-2 w-44 rounded-xl border border-[color:var(--border)] bg-[color:var(--bg)] shadow-lg p-2">
+          {links.map((l) => (
+            <a
+              href={l.href}
+              class={`block rounded-lg px-3 py-2 text-sm hover:bg-[color:var(--surface)] ${isActive(l.href) ? "text-[color:var(--accent)]" : "text-[color:var(--text)]"}`}
+              data-i18n={l.key}
+            >
+              {l.label}
+            </a>
+          ))}
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <style>
+    .nav-link {
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+      border: 1px solid transparent;
+      transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+    }
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--accent);
+      background: var(--surface);
+    }
+    .nav-link--active {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--surface);
+    }
+  </style>
+</header>
