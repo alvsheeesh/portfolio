@@ -12,7 +12,7 @@
     "links": [
       {
         "labelKey": "footer.github",
-        "url": "https://github.com/your-username/qnap-minecraft"
+        "url": "https://github.com/alvsheeesh/qnapmine"
       }
     ]
   },
@@ -29,7 +29,7 @@
     "links": [
       {
         "labelKey": "cta.readMore",
-        "url": "#"
+        "url": "https://learningnetwork.cisco.com/s/article/el-software-de-simulacion-de-cisco-packet-tracer"
       }
     ]
   },
@@ -46,8 +46,25 @@
     "links": [
       {
         "labelKey": "footer.github",
-        "url": "https://github.com/your-username/portfolio-asch-clean"
+        "url": "https://github.com/alvsheeesh/portfolio"
       }
     ]
-  }
+  },
+  /*{
+    "id": "packet-tracer-network",
+    "titleKey": "proj.packetTracer.title",
+    "descKey": "proj.packetTracer.desc",
+    "statusKey": "projects.status.done",
+    "tags": [ "networking", "packet-tracer", "simulation" ],
+    "previewType": "image",
+    "image": "/projects/packet-tracer.jpg",
+    "imageAltKey": "proj.packetTracer.alt",
+    "previewUrl": "/projects/packet-tracer.jpg",
+    "links": [
+      {
+        "labelKey": "cta.readMore",
+        "url": "https://learningnetwork.cisco.com/s/article/el-software-de-simulacion-de-cisco-packet-tracer"
+      }
+    ]
+  }*/
 ]
