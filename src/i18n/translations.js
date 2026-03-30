@@ -248,7 +248,24 @@ export const translations = {
         "proj.portfolio.title": "Portfolio Website",
         "proj.portfolio.desc": "Bilingual portfolio built with Astro + Tailwind, dark mode by default, custom i18n and clean components.",
         "proj.portfolio.alt": "Portfolio homepage cover image",
-        "hero.photo.alt": "Professional headshot of Álvaro Silva"
+        "hero.photo.alt": "Professional headshot of Álvaro Silva",
+
+        // PROJECT: P.C. Consumer Behavior Analysis
+        "proj.pcConsumerBehavior.title": "P.C. Consumer Behavior Analysis",
+        "proj.pcConsumerBehavior.desc":
+            "This project analyses how students and young adults choose between communication applications, focusing on Discord, WhatsApp and Instagram Direct.",
+
+        // TAGS
+        "tag.research": "Research",
+        "tag.consumerBehavior": "Consumer behavior",
+        "tag.communicationApps": "Communication apps",
+        "tag.socialMedia": "Social media",
+
+        // CONTEXT
+        "projects.context.academic": "Academic project",
+
+        //IMAGES
+        "proj.chart.alt": "Chart showing communication app usage comparison",
     },
 
     es: {
@@ -497,6 +514,24 @@ export const translations = {
             "proj.portfolio.title": "Página web de portfolio",
             "proj.portfolio.desc": "Portfolio bilingüe construido con Astro + Tailwind, modo oscuro por defecto, i18n propio y componentes limpios.",
             "proj.portfolio.alt": "Imagen de portada de la home del portfolio",
-            "hero.photo.alt": "Foto profesional de Álvaro Silva"
+            "hero.photo.alt": "Foto profesional de Álvaro Silva",
+
+            // PROJECT: P.C. Consumer Behavior Analysis
+            "proj.pcConsumerBehavior.title": "Análisis del comportamiento del consumidor (P.C.)",
+            "proj.pcConsumerBehavior.desc":
+                "Este proyecto analiza cómo estudiantes y jóvenes adultos eligen entre aplicaciones de comunicación, centrándose en Discord, WhatsApp e Instagram Direct.",
+
+            // TAGS
+            "tag.research": "Investigación",
+            "tag.consumerBehavior": "Comportamiento del consumidor",
+            "tag.communicationApps": "Aplicaciones de comunicación",
+            "tag.socialMedia": "Redes sociales",
+
+            // CONTEXT
+            "projects.context.academic": "Proyecto académico",
+
+            //IMAGE
+            "proj.chart.alt": "Gráfico comparativo del uso de aplicaciones de comunicación",
+
     },
 };

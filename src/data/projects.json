@@ -50,7 +50,7 @@
       }
     ]
   },
-  /*{
+  {
     "id": "packet-tracer-network",
     "titleKey": "proj.packetTracer.title",
     "descKey": "proj.packetTracer.desc",
@@ -66,5 +66,5 @@
         "url": "https://learningnetwork.cisco.com/s/article/el-software-de-simulacion-de-cisco-packet-tracer"
       }
     ]
-  }*/
+  }
 ]
