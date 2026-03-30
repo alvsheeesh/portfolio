@@ -1,9 +1,29 @@
 [
   {
+    "id": "pc-consumer-behavior",
+    "titleKey": "proj.pcConsumerBehavior.title",
+    "descKey": "proj.pcConsumerBehavior.desc",
+    "statusKey": "projects.status.done",
+    "contextKey": "projects.context.academic",
+    "tags": [ "tag.research", "tag.consumerBehavior", "tag.communicationApps", "tag.socialMedia" ],
+    "previewType": "image",
+    "image": "/projects/chart.jpg",
+    "imageAltKey": "proj.chart.alt",
+    "previewUrl": "/projects/chart.jpg",
+    "links": [
+      {
+        "labelKey": "cta.readMore",
+        "url": "https://github.com/alvsheeesh/pcconsumer.pdf"
+      }
+    ]
+  },
+
+  {
     "id": "qnap-minecraft",
     "titleKey": "proj.qnapMinecraft.title",
     "descKey": "proj.qnapMinecraft.desc",
-    "statusKey": "projects.status.inProgress",
+    "statusKey": "projects.status.done",
+    "contextKey": "projects.context.personal",
     "tags": [ "homelab", "qnap", "minecraft", "docs" ],
     "previewType": "image",
     "image": "/projects/qnap-minecraft.jpg",
@@ -21,6 +41,7 @@
     "titleKey": "proj.packetTracer.title",
     "descKey": "proj.packetTracer.desc",
     "statusKey": "projects.status.done",
+    "contextKey": "projects.context.academic",
     "tags": [ "networking", "packet-tracer", "simulation" ],
     "previewType": "image",
     "image": "/projects/packet-tracer.jpg",
@@ -33,11 +54,13 @@
       }
     ]
   },
+
   {
     "id": "portfolio-site",
     "titleKey": "proj.portfolio.title",
     "descKey": "proj.portfolio.desc",
     "statusKey": "projects.status.new",
+    "contextKey": "projects.context.personal",
     "tags": [ "astro", "tailwind", "i18n" ],
     "previewType": "pdf",
     "image": "/projects/portfolio-cover.jpg",
@@ -47,23 +70,6 @@
       {
         "labelKey": "footer.github",
         "url": "https://github.com/alvsheeesh/portfolio"
-      }
-    ]
-  },
-  {
-    "id": "packet-tracer-network",
-    "titleKey": "proj.packetTracer.title",
-    "descKey": "proj.packetTracer.desc",
-    "statusKey": "projects.status.done",
-    "tags": [ "networking", "packet-tracer", "simulation" ],
-    "previewType": "image",
-    "image": "/projects/packet-tracer.jpg",
-    "imageAltKey": "proj.packetTracer.alt",
-    "previewUrl": "/projects/packet-tracer.jpg",
-    "links": [
-      {
-        "labelKey": "cta.readMore",
-        "url": "https://learningnetwork.cisco.com/s/article/el-software-de-simulacion-de-cisco-packet-tracer"
       }
     ]
   }
