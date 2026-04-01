@@ -7,9 +7,9 @@
     "contextKey": "projects.context.academic",
     "tags": [ "tag.research", "tag.consumerBehavior", "tag.communicationApps", "tag.socialMedia" ],
     "previewType": "image",
-    "image": "/projects/chart.jpg",
+    "image": "/projects/chart.png",
     "imageAltKey": "proj.chart.alt",
-    "previewUrl": "/projects/chart.jpg",
+    "previewUrl": "/projects/chart.png",
     "links": [
       {
         "labelKey": "cta.readMore",
