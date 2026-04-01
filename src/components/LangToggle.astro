@@ -1,10 +1,40 @@
 ﻿<button
   type="button"
+  id="lang-toggle"
   class="btn px-3 py-2"
   aria-label="Change language"
-  data-lang-toggle
-  data-i18n-attr="aria-label: footer.langToggle; title: footer.langToggle"
 >
-  <span aria-hidden="true">🌐</span>
-  <span class="hidden sm:inline" data-lang-label>EN</span>
+	<span aria-hidden="true">🌐</span>
+	<span id="lang-label" class="hidden sm:inline">EN</span>
 </button>
+
+<script>
+	import { applyLanguage } from "../i18n/i18n.js";
+
+	function setupLangToggle() {
+	const btn = document.getElementById("lang-toggle");
+	const label = document.getElementById("lang-label");
+
+	function refreshLabel() {
+	const current =
+	document.documentElement.getAttribute("data-lang") || "en";
+	if (label) label.textContent = current.toUpperCase();
+	}
+
+	refreshLabel();
+
+	btn?.addEventListener("click", () => {
+	const current =
+	document.documentElement.getAttribute("data-lang") || "en";
+	const next = current === "en" ? "es" : "en";
+	applyLanguage(next);
+	refreshLabel();
+	});
+	}
+
+	if (document.readyState === "loading") {
+	document.addEventListener("DOMContentLoaded", setupLangToggle);
+	} else {
+	setupLangToggle();
+	}
+</script>
