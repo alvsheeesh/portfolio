@@ -1,4 +1,19 @@
 [
+
+  {
+    "id": "pc-work-life-balance",
+    "titleKey": "proj.workLifeBalance.title",
+    "descKey": "proj.workLifeBalance.desc",
+    "statusKey": "projects.status.completed",
+    "contextKey": "projects.context.academic",
+    "tags": ["tag.workLifeBalance", "tag.mentalHealth", "tag.timeManagement","tag.hr","tag.research","tag.documentation"],
+    "previewType": "pdf",
+    "image": "/projects/work-life-balance-cover.jpg",
+    "imageAltKey": "proj.workLifeBalance.alt",
+    "previewUrl": "/projects/worklife.pdf",
+    "links": []
+  },
+
   {
     "id": "pc-consumer-behavior",
     "titleKey": "proj.pcConsumerBehavior.title",
@@ -17,6 +32,8 @@
       }
     ]
   },
+
+
 
   {
     "id": "qnap-minecraft",
