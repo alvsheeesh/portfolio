@@ -250,22 +250,34 @@ export const translations = {
         "proj.portfolio.alt": "Portfolio homepage cover image",
         "hero.photo.alt": "Professional headshot of Álvaro Silva",
 
-        // PROJECT: P.C. Consumer Behavior Analysis
+        // ===== PROJECT: PC Consumer Behavior =====
         "proj.pcConsumerBehavior.title": "P.C. Consumer Behavior Analysis",
         "proj.pcConsumerBehavior.desc":
-            "This project analyses how students and young adults choose between communication applications, focusing on Discord, WhatsApp and Instagram Direct.",
+            "Analysis of how students and young adults choose between communication apps such as Discord, WhatsApp and Instagram Direct.",
 
-        // TAGS
+        // ===== PROJECT CONTEXT =====
+        "projects.context.academic": "Academic project",
+        "projects.context.personal": "Personal project",
+
+        // ===== TAGS =====
         "tag.research": "Research",
         "tag.consumerBehavior": "Consumer behavior",
         "tag.communicationApps": "Communication apps",
         "tag.socialMedia": "Social media",
 
-        // CONTEXT
-        "projects.context.academic": "Academic project",
+        "tag.homelab": "Homelab",
+        "tag.qnap": "QNAP",
+        "tag.minecraft": "Minecraft",
+        "tag.docs": "Documentation",
 
-        //IMAGES
-        "proj.chart.alt": "Chart showing communication app usage comparison",
+        "tag.networking": "Networking",
+        "tag.packet-tracer": "Packet Tracer",
+        "tag.simulation": "Simulation",
+
+        "tag.astro": "Astro",
+        "tag.tailwind": "Tailwind",
+        "tag.i18n": "Internationalization",
+
     },
 
     es: {
@@ -516,22 +528,33 @@ export const translations = {
             "proj.portfolio.alt": "Imagen de portada de la home del portfolio",
             "hero.photo.alt": "Foto profesional de Álvaro Silva",
 
-            // PROJECT: P.C. Consumer Behavior Analysis
-            "proj.pcConsumerBehavior.title": "Análisis del comportamiento del consumidor (P.C.)",
-            "proj.pcConsumerBehavior.desc":
-                "Este proyecto analiza cómo estudiantes y jóvenes adultos eligen entre aplicaciones de comunicación, centrándose en Discord, WhatsApp e Instagram Direct.",
+        // ===== PROJECT: PC Consumer Behavior =====
+        "proj.pcConsumerBehavior.title": "Análisis del comportamiento del consumidor (P.C.)",
+        "proj.pcConsumerBehavior.desc":
+            "Análisis de cómo estudiantes y jóvenes adultos eligen entre aplicaciones de comunicación como Discord, WhatsApp e Instagram Direct.",
 
-            // TAGS
-            "tag.research": "Investigación",
-            "tag.consumerBehavior": "Comportamiento del consumidor",
-            "tag.communicationApps": "Aplicaciones de comunicación",
-            "tag.socialMedia": "Redes sociales",
+        // ===== PROJECT CONTEXT =====
+        "projects.context.academic": "Proyecto académico",
+        "projects.context.personal": "Proyecto personal",
 
-            // CONTEXT
-            "projects.context.academic": "Proyecto académico",
+        // ===== TAGS =====
+        "tag.research": "Investigación",
+        "tag.consumerBehavior": "Comportamiento del consumidor",
+        "tag.communicationApps": "Aplicaciones de comunicación",
+        "tag.socialMedia": "Redes sociales",
 
-            //IMAGE
-            "proj.chart.alt": "Gráfico comparativo del uso de aplicaciones de comunicación",
+        "tag.homelab": "Homelab",
+        "tag.qnap": "QNAP",
+        "tag.minecraft": "Minecraft",
+        "tag.docs": "Documentación",
+
+        "tag.networking": "Redes",
+        "tag.packet-tracer": "Packet Tracer",
+        "tag.simulation": "Simulación",
+
+        "tag.astro": "Astro",
+        "tag.tailwind": "Tailwind",
+        "tag.i18n": "Internacionalización",
 
     },
 };
