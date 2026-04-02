@@ -278,6 +278,25 @@ export const translations = {
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internationalization",
 
+        "projects.status.completed": "Completed",
+
+        // ===== PROJECT: Work-Life Balance Guide =====
+        "proj.workLifeBalance.title": "Work-Life Balance Guide for Employees",
+
+        "proj.workLifeBalance.desc":
+            "Academic project focused on analysing work-life balance in a real company context. The guide explores the impact of work pressure on mental and physical health, identifies problem areas in corporate environments, and proposes practical strategies such as time management, setting boundaries, social support and workplace mental health initiatives.",
+
+        "proj.workLifeBalance.alt":
+            "Cover page of the Work-Life Balance Guide project document",
+
+        // ===== TAGS: Work-Life Balance =====
+        "tag.workLifeBalance": "Work-life balance",
+        "tag.mentalHealth": "Mental health",
+        "tag.timeManagement": "Time management",
+        "tag.hr": "Human resources",
+        "tag.research": "Research",
+        "tag.documentation": "Documentation",
+
     },
 
     es: {
@@ -555,6 +574,25 @@ export const translations = {
         "tag.astro": "Astro",
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internacionalización",
+
+        "projects.status.completed": "Completado",
+        // ===== PROJECT: Work-Life Balance Guide =====
+        "proj.workLifeBalance.title": "Guía de conciliación entre vida personal y profesional",
+
+        "proj.workLifeBalance.desc":
+            "Proyecto académico centrado en el análisis de la conciliación entre la vida personal y profesional en un contexto empresarial real. La guía estudia el impacto de la presión laboral en la salud mental y física, identifica aspectos mejorables en el entorno corporativo y propone estrategias prácticas como la gestión del tiempo, el establecimiento de límites, el apoyo social y programas de bienestar laboral.",
+
+        "proj.workLifeBalance.alt":
+            "Portada del proyecto Guía de conciliación entre vida personal y profesional",
+
+        // ===== TAGS: Work-Life Balance =====
+        "tag.workLifeBalance": "Conciliación laboral",
+        "tag.mentalHealth": "Salud mental",
+        "tag.timeManagement": "Gestión del tiempo",
+        "tag.hr": "Recursos humanos",
+        "tag.research": "Investigación",
+        "tag.documentation": "Documentación",
+
 
     },
 };
