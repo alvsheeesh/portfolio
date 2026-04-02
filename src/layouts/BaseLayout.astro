@@ -8,16 +8,6 @@ import "../styles/global.css";
 const { title = "Portfolio", description = "" } = Astro.props;
 ---
 
-<script>
-  import { initI18n } from "../i18n/i18n.js";
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initI18n);
-  } else {
-    initI18n();
-  }
-</script>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -54,6 +44,13 @@ const { title = "Portfolio", description = "" } = Astro.props;
   </head>
 
   <body class="min-h-screen">
+
+      <script>
+      import { initI18n } from "../i18n/i18n.js";
+      initI18n();
+    </script>
+
+
     <Header />
 
     <main class="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
