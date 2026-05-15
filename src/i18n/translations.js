@@ -52,19 +52,19 @@ export const translations = {
         "home.hero.title": "Álvaro Silva Chávez",
         "home.hero.subtitle": "DAM Student · Future Cybersecurity Specialist",
         "home.hero.lead":
-            "Academic portfolio documenting my progress in software development, systems, and security best practices.",
+            "Interning at AmplifySoft while gearing up for DAM. I build things, break them on purpose, and document everything along the way.",
         "home.hero.actions.viewProjects": "View projects",
         "home.hero.actions.aboutMe": "About me",
 
         "home.cards.1.title": "New",
         "home.cards.1.desc":
-            "DAM student building projects and documentation.",
+            "Interning at AmplifySoft. Building real experience before DAM.",
         "home.cards.2.title": "Focus",
         "home.cards.2.desc":
-            "Applied security best practices, hardening, and clean deployments.",
+            "Security-first mindset, homelab experiments, and documenting everything.",
         "home.cards.3.title": "Goal",
         "home.cards.3.desc":
-            "Public hub + connected lab (QNAP) to showcase work.",
+            "Start DAM strong, keep shipping projects, and grow the homelab.",
 
         "home.faqs.title": "FAQs",
         "home.faqs.desc":
@@ -99,9 +99,9 @@ export const translations = {
         // Background / Story
         "about.section.background.title": "Background",
         "about.section.background.p1":
-            "I am a CFGS DAM student at Vedruna Vall Terrassa. I like building clean, understandable solutions and documenting what I learn along the way.",
+            "Currently interning at AmplifySoft, working on real projects while finishing my studies. I start DAM next year. I like building things that actually work and writing down how I did it.",
         "about.section.background.p2":
-            "My current focus is applying secure-by-default practices to academic projects and setting up a small homelab (QNAP) to explore services and deployments safely.",
+            "My homelab runs Pi-hole and a Minecraft server on a QNAP NAS — with a local AI agent planned next. On the software side, I try to think about security from the start, not bolt it on at the end.",
 
         // Education / Certs / Experience
         "about.section.education.title": "Education",
@@ -112,7 +112,7 @@ export const translations = {
         "about.section.certs.item2": "Practical Linux & networking labs (ongoing)",
 
         "about.section.experience.title": "Experience",
-        "about.section.experience.item1": "Academic projects with emphasis on secure practices",
+        "about.section.experience.item1": "Internship at AmplifySoft — real projects while finishing studies",
         "about.section.experience.item2": "Homelab (QNAP) setup: services, access control, backups",
 
         // Interests & Goals
@@ -134,7 +134,7 @@ export const translations = {
         "projects.title": "Projects",
         "projects.kicker": "Selected work · Labs · Demos",
         "projects.intro":
-            "A curated list of academic projects and labs. Each card is sourced from projects.json and translated via keys.",
+            "A curated list of academic projects, homelab setups, and personal work — sorted newest first.",
         "projects.tags": "Tags",
         "projects.links": "Links",
         "projects.empty": "No projects to show yet.",
@@ -153,7 +153,7 @@ export const translations = {
         "contact.title": "Contact",
         "contact.kicker": "Let’s talk",
         "contact.intro":
-            "This is a demo form. You can also reach out via email.",
+            "Drop me a message or reach out directly — always open to a good conversation.",
         "contact.form.name": "Name",
         "contact.form.email": "Email",
         "contact.form.message": "Message",
@@ -176,17 +176,17 @@ export const translations = {
         "hero.kicker": "CFGS DAM · Portfolio",
         "hero.role": "DAM Student · Future Cybersecurity Specialist",
         "hero.summary":
-            "Academic portfolio documenting my progress in software development, systems, and security best practices.",
+            "Interning at AmplifySoft while gearing up for DAM. I build things, break them on purpose, and document everything along the way.",
         "hero.cta.projects": "View projects",
         "hero.cta.about": "About me",
 
         // Cards
         "card.now.title": "New",
-        "card.now.body": "DAM student building projects and documentation.",
+        "card.now.body": "Interning at AmplifySoft. Building real experience before DAM.",
         "card.focus.title": "Focus",
-        "card.focus.body": "Applied security: best practices, hardening, and clean deployments.",
+        "card.focus.body": "Security-first mindset, homelab experiments, and documenting everything.",
         "card.goal.title": "Goal",
-        "card.goal.body": "Public hub + controlled lab (NAS) to showcase work.",
+        "card.goal.body": "Start DAM strong, keep shipping projects, and grow the homelab.",
 
         // FAQs
         "faq.title": "FAQs",
@@ -194,16 +194,16 @@ export const translations = {
             "Quick answers about my profile and how I build projects.",
         "faq.q1.q": "What am I focusing on right now?",
         "faq.q1.a":
-            "I’m focusing on core development skills and security fundamentals…",
+            "Building practical skills during my internship at AmplifySoft — real projects I’ll carry into DAM next year.",
         "faq.q2.q": "Why cybersecurity?",
         "faq.q2.a":
-            "I like the combination of systems, networking and secure software…",
+            "Computers have always been my thing. Cybersecurity sits at the intersection of everything I find interesting — systems, networks, understanding how things work by breaking them. Also, feeling like a hacker is pretty cool.",
         "faq.q3.q": "What kind of projects will you publish?",
         "faq.q3.a":
-            "Academic projects, tooling, labs and writeups (without sensitive details)…",
+            "A mix: academic work, development projects, homelab setups, and CTF writeups when I play. No fixed type — whatever I'm learning at the time.",
         "faq.q4.q": "Do you self-host anything?",
         "faq.q4.a":
-            "I’m building a hybrid setup: static front-end + NAS lab for services…",
+            "Yes — Pi-hole for network-level ad blocking and a Minecraft server, both on my QNAP NAS. I’m also looking at running a local AI agent (Hermes AI) on it.",
         "faq.q5.q": "How can someone contact you?",
         "faq.q5.a": "Use the contact page or email — the form is demo-only for security.",
 
@@ -348,19 +348,19 @@ export const translations = {
         "home.hero.title": "Álvaro Silva Chávez",
         "home.hero.subtitle": "Estudiante DAM · Futuro especialista en Ciberseguridad",
         "home.hero.lead":
-            "Portfolio académico documentando mi progreso en desarrollo de software, sistemas y buenas prácticas de seguridad.",
+            "Prácticas en AmplifySoft mientras me preparo para DAM. Construyo cosas, las rompo a propósito y lo documento todo.",
         "home.hero.actions.viewProjects": "Ver proyectos",
         "home.hero.actions.aboutMe": "Sobre mí",
 
         "home.cards.1.title": "Nuevo",
         "home.cards.1.desc":
-            "Estudiante DAM construyendo proyectos y documentación.",
+            "Prácticas en AmplifySoft. Ganando experiencia real antes de DAM.",
         "home.cards.2.title": "Enfoque",
         "home.cards.2.desc":
-            "Buenas prácticas de seguridad aplicadas, hardening y despliegues limpios.",
+            "Mentalidad security-first, experimentos en el homelab y documentar todo.",
         "home.cards.3.title": "Objetivo",
         "home.cards.3.desc":
-            "Hub público + laboratorio conectado (QNAP) para mostrar el trabajo.",
+            "Arrancar bien DAM, seguir publicando proyectos y hacer crecer el homelab.",
 
         "home.faqs.title": "FAQs",
         "home.faqs.desc":
@@ -394,9 +394,9 @@ export const translations = {
         // Background / Story
         "about.section.background.title": "Trayectoria",
         "about.section.background.p1":
-            "Soy estudiante de CFGS DAM en Vedruna Vall Terrassa. Me gusta construir soluciones limpias y entendibles, y documentar lo que aprendo.",
+            "Actualmente haciendo prácticas en AmplifySoft, trabajando en proyectos reales mientras termino mis estudios. El año que viene empiezo DAM. Me gusta construir cosas que funcionen y escribir cómo las he hecho.",
         "about.section.background.p2":
-            "Mi enfoque actual es aplicar prácticas secure-by-default en proyectos académicos y montar un homelab (QNAP) para explorar servicios y despliegues de forma segura.",
+            "En el homelab tengo Pi-hole y un servidor de Minecraft en un NAS QNAP, con un agente de IA local en mente para lo próximo. En el lado del software, intento pensar en seguridad desde el principio, no añadirla al final.",
 
         // Educación / Certificaciones / Experiencia
         "about.section.education.title": "Formación",
@@ -410,7 +410,7 @@ export const translations = {
 
         "about.section.experience.title": "Experiencia",
         "about.section.experience.item1":
-            "Proyectos académicos con énfasis en prácticas de seguridad",
+            "Prácticas en AmplifySoft — proyectos reales mientras termino los estudios",
         "about.section.experience.item2":
             "Homelab (QNAP): servicios, control de accesos y copias",
 
@@ -433,7 +433,7 @@ export const translations = {
         "projects.title": "Proyectos",
         "projects.kicker": "Trabajo seleccionado · Labs · Demos",
         "projects.intro":
-            "Lista curada de proyectos académicos y labs. Cada tarjeta viene de projects.json y se traduce por claves.",
+            "Lista curada de proyectos académicos, configuraciones de homelab y trabajo personal — ordenados del más reciente al más antiguo.",
         "projects.tags": "Etiquetas",
         "projects.links": "Enlaces",
         "projects.empty": "Aún no hay proyectos para mostrar.",
@@ -452,7 +452,7 @@ export const translations = {
         "contact.title": "Contacto",
         "contact.kicker": "Hablemos",
         "contact.intro":
-            "Este es un formulario de demostración. También puedes escribir por email.",
+            "Mándame un mensaje o escríbeme directamente — siempre abierto a una buena conversación.",
         "contact.form.name": "Nombre",
         "contact.form.email": "Correo",
         "contact.form.message": "Mensaje",
@@ -475,17 +475,17 @@ export const translations = {
         "hero.kicker": "CFGS DAM · Portfolio",
         "hero.role": "Estudiante DAM · Futuro especialista en Ciberseguridad",
         "hero.summary":
-            "Portfolio académico documentando mi progreso en desarrollo de software, sistemas y buenas prácticas de seguridad.",
+            "Prácticas en AmplifySoft mientras me preparo para DAM. Construyo cosas, las rompo a propósito y lo documento todo.",
         "hero.cta.projects": "Ver proyectos",
         "hero.cta.about": "Sobre mí",
 
         // Cards
         "card.now.title": "Nuevo",
-        "card.now.body": "Estudiante DAM construyendo proyectos y documentación.",
+        "card.now.body": "Prácticas en AmplifySoft. Ganando experiencia real antes de DAM.",
         "card.focus.title": "Enfoque",
-        "card.focus.body": "Seguridad aplicada: buenas prácticas, hardening y despliegues limpios.",
+        "card.focus.body": "Mentalidad security-first, experimentos en el homelab y documentar todo.",
         "card.goal.title": "Objetivo",
-        "card.goal.body": "Hub público + laboratorio controlado (NAS) para mostrar el trabajo.",
+        "card.goal.body": "Arrancar bien DAM, seguir publicando proyectos y hacer crecer el homelab.",
 
         // FAQs
         "faq.title": "FAQs",
@@ -493,16 +493,16 @@ export const translations = {
             "Respuestas rápidas sobre mi perfil y cómo construyo proyectos.",
         "faq.q1.q": "¿En qué me estoy enfocando ahora?",
         "faq.q1.a":
-            "Estoy centrado en habilidades de desarrollo base y fundamentos de seguridad…",
+            "Ganando experiencia real en mis prácticas en AmplifySoft — proyectos concretos que llevaré conmigo cuando empiece DAM.",
         "faq.q2.q": "¿Por qué ciberseguridad?",
         "faq.q2.a":
-            "Me gusta la combinación de sistemas, redes y software seguro…",
+            "La informática siempre ha sido lo mío. La ciberseguridad conecta todo lo que me interesa: sistemas, redes, entender cómo funcionan las cosas rompiéndolas. Y no voy a mentir — sentirte hacker mola bastante.",
         "faq.q3.q": "¿Qué tipo de proyectos publicarás?",
         "faq.q3.a":
-            "Proyectos académicos, tooling, labs y writeups (sin detalles sensibles)…",
+            "Un mix: proyectos académicos, desarrollo, configuraciones del homelab y writeups de CTFs cuando juego. Sin tipo fijo — lo que esté aprendiendo en cada momento.",
         "faq.q4.q": "¿Autoalojas algún servicio?",
         "faq.q4.a":
-            "Estoy montando un setup híbrido: front estático + NAS lab para servicios…",
+            "Sí — Pi-hole para bloquear anuncios a nivel de red y un servidor de Minecraft, ambos en mi NAS QNAP. También tengo en mente montar un agente de IA local (Hermes AI).",
         "faq.q5.q": "¿Cómo pueden contactarte?",
         "faq.q5.a":
             "Usa la página de contacto o email — el formulario es solo demo por seguridad.",

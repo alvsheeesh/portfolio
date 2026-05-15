@@ -28,12 +28,10 @@
     "links": [
       {
         "labelKey": "cta.readMore",
-        "url": "pcconsu.pdf"
+        "url": "/projects/pcconsu.pdf"
       }
     ]
   },
-
-
 
   {
     "id": "qnap-minecraft",
@@ -76,7 +74,7 @@
     "id": "portfolio-site",
     "titleKey": "proj.portfolio.title",
     "descKey": "proj.portfolio.desc",
-    "statusKey": "projects.status.new",
+    "statusKey": "projects.status.inProgress",
     "contextKey": "projects.context.personal",
     "tags": [ "tag.astro", "tag.tailwind", "tag.i18n" ],
     "previewType": "pdf",
