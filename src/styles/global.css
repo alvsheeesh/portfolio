@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Botón base (contorno + hover highlight) */
+/* Botï¿½n base (contorno + hover highlight) */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -54,7 +54,7 @@ body {
         transform: translateY(1px);
     }
 
-/* Variante principal (más marcada pero con el MISMO hover) */
+/* Variante principal (mï¿½s marcada pero con el MISMO hover) */
 .btn-primary {
     background: var(--surface);
     border-color: var(--accent);
@@ -69,4 +69,96 @@ body {
 /* Quita el marcador por defecto del summary (Chrome/Safari) */
 summary::-webkit-details-marker {
     display: none;
+}
+
+/* ============================================
+   Animations: entrance + reveal on scroll
+   ============================================ */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Hero / above-the-fold: animate immediately on load */
+.fade-in-up {
+    animation: fadeInUp 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.fade-in {
+    animation: fadeIn 600ms ease-out both;
+}
+
+/* Reveal on scroll: hidden until JS adds .is-visible, then runs animation.
+   Using animation (not transition) so inline animation-delay doesn't bleed
+   into hover transitions on the same element. */
+.reveal {
+    opacity: 0;
+}
+
+.reveal.is-visible {
+    animation: fadeInUp 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Skill bar fill animation: animates --bar-fill width from 0 -> target */
+.skill-bar-fill {
+    width: 0;
+    transition: width 1000ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.skill-bar-fill.is-visible {
+    width: var(--target, 0%);
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .fade-in-up,
+    .fade-in,
+    .reveal,
+    .skill-bar-fill {
+        animation: none !important;
+        transition: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+        width: var(--target, auto) !important;
+    }
+}
+
+/* Header: subtle shadow once page is scrolled */
+header.is-scrolled {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* Home quick-cards: subtle hover lift */
+.quick-card {
+    transition:
+        transform 200ms cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 200ms ease,
+        box-shadow 200ms ease;
+}
+
+.quick-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+}
+
+/* FAQ details: subtle hover border */
+details.reveal {
+    transition: border-color 200ms ease;
+}
+
+details.reveal:hover {
+    border-color: var(--accent);
 }

@@ -24,13 +24,15 @@ const MAP_EMBED =
     <!-- Título y subtítulo -->
     <header class="space-y-2">
       <h1
-        class="text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]"
+        class="fade-in-up text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]"
+        style="animation-delay: 60ms"
         data-i18n="contact.title"
       >
         Contact
       </h1>
       <p
-        class="text-[color:var(--muted)] max-w-3xl"
+        class="fade-in-up text-[color:var(--muted)] max-w-3xl"
+        style="animation-delay: 140ms"
         data-i18n="contact.intro"
       >
         This is a demo form. You can also reach out via email.
@@ -40,7 +42,7 @@ const MAP_EMBED =
     <!-- Grid principal: Form + Sidebar -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- FORM DEMO -->
-      <form class="rounded-2xl border border-border bg-card p-6 space-y-5" novalidate>
+      <form class="reveal rounded-2xl border border-border bg-card p-6 space-y-5" novalidate>
         <h2
           class="text-lg font-semibold text-[color:var(--text)]"
           data-i18n="contact.form.title"
@@ -119,7 +121,7 @@ const MAP_EMBED =
       </form>
 
       <!-- SIDEBAR: datos + redes + mapa -->
-      <aside class="rounded-2xl border border-border bg-card p-6 space-y-5">
+      <aside class="reveal rounded-2xl border border-border bg-card p-6 space-y-5" style="animation-delay: 120ms">
         <h2
           class="text-lg font-semibold text-[color:var(--text)]"
           data-i18n="contact.side.title"

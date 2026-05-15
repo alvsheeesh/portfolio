@@ -50,14 +50,16 @@ const skillGroups = [
   <section class="space-y-10">
     <!-- HEADER -->
     <header class="space-y-3">
-      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]"
+      <h1 class="fade-in-up text-3xl sm:text-4xl font-bold tracking-tight text-[color:var(--text)]"
+          style="animation-delay: 60ms"
           data-i18n="about.title"></h1>
 
-      <p class="text-[color:var(--muted)] max-w-3xl"
+      <p class="fade-in-up text-[color:var(--muted)] max-w-3xl"
+         style="animation-delay: 140ms"
          data-i18n="about.subtitle"></p>
 
       <!-- CTAs: CV -->
-      <div class="pt-2 flex flex-wrap gap-3">
+      <div class="fade-in-up pt-2 flex flex-wrap gap-3" style="animation-delay: 220ms">
         <a class="btn btn-primary"
            href="/cv-alvaro-silva.pdf"
            download
@@ -68,14 +70,15 @@ const skillGroups = [
            data-i18n="about.cv.view"></a>
       </div>
 
-      <p class="text-xs text-[color:var(--muted)]"
+      <p class="fade-in-up text-xs text-[color:var(--muted)]"
+         style="animation-delay: 300ms"
          data-i18n="about.cv.note"></p>
     </header>
 
     <!-- GRID: BACKGROUND + QUICK FACTS -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- Background -->
-      <article class="lg:col-span-2 rounded-2xl border border-border bg-card p-6 space-y-4">
+      <article class="reveal lg:col-span-2 rounded-2xl border border-border bg-card p-6 space-y-4">
         <h2 class="text-xl font-semibold text-[color:var(--text)]"
             data-i18n="about.section.background.title"></h2>
 
@@ -120,7 +123,7 @@ const skillGroups = [
       </article>
 
       <!-- INTERESTS -->
-      <aside class="rounded-2xl border border-border bg-card p-6 space-y-5">
+      <aside class="reveal rounded-2xl border border-border bg-card p-6 space-y-5" style="animation-delay: 120ms">
         <h2 class="text-xl font-semibold text-[color:var(--text)]"
             data-i18n="about.section.interests.title"></h2>
 
@@ -138,13 +141,13 @@ const skillGroups = [
           data-i18n="about.skills.title"></h2>
 
       <div class="grid gap-6 md:grid-cols-2">
-        {skillGroups.map((group) => (
-          <div class="rounded-2xl border border-border bg-card p-5">
+        {skillGroups.map((group, gi) => (
+          <div class="reveal rounded-2xl border border-border bg-card p-5" style={`animation-delay: ${gi * 100}ms`}>
             <h3 class="font-medium text-[color:var(--text)]"
                 data-i18n={group.key}></h3>
 
             <div class="mt-4 space-y-3">
-              {group.items.map((s) => (
+              {group.items.map((s, si) => (
                 <div>
                   <div class="flex items-center justify-between text-sm">
                     <span class="text-[color:var(--text)]">{s.name}</span>
@@ -153,8 +156,8 @@ const skillGroups = [
 
                   <div class="mt-1 h-2 w-full rounded-full bg-[color:var(--surface)]">
                     <div
-                      class="h-2 rounded-full bg-[color:var(--accent)]"
-                      style={{ width: `${s.level}%` }}
+                      class="skill-bar-fill h-2 rounded-full bg-[color:var(--accent)]"
+                      style={`--target: ${s.level}%; transition-delay: ${si * 60}ms`}
                       aria-hidden="true"
                     />
                   </div>
