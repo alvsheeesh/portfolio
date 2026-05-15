@@ -35,8 +35,8 @@ const isEven = (n) => n % 2 === 0;
     <div class="space-y-6">
       {projects.map((p, idx) => {
         const even = isEven(idx);
-        const leftColOrder = even ? "" : "md:order-2";
-        const rightColOrder = even ? "" : "md:order-1";
+        const leftColOrder = even ? "md:order-2" : "";
+        const rightColOrder = even ? "md:order-1" : "";
 
         return (
           <article
