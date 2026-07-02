@@ -8,9 +8,9 @@
     "contextKey": "projects.context.professional",
     "tags": [ "tag.security", "tag.blueTeam", "tag.cra", "tag.docker", "tag.githubActions", "tag.supplyChain" ],
     "previewType": "image",
-    "image": "/projects/cra.png",
+    "image": "/projects/cra.webp",
     "imageAltKey": "proj.craImageSigning.alt",
-    "previewUrl": "/projects/cra.png",
+    "previewUrl": "/projects/cra.webp",
     "links": []
   },
 
@@ -36,9 +36,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.dns", "tag.privacy", "tag.selfHosted", "tag.adguardHome", "tag.tailscale" ],
     "previewType": "image",
-    "image": "/projects/tailscale.jpg",
+    "image": "/projects/tailscale.webp",
     "imageAltKey": "proj.adguardDns.alt",
-    "previewUrl": "/projects/tailscale.jpg",
+    "previewUrl": "/projects/tailscale.webp",
     "links": []
   },
 
@@ -51,7 +51,7 @@
     "contextKey": "projects.context.academic",
     "tags": ["tag.workLifeBalance", "tag.mentalHealth", "tag.timeManagement","tag.hr","tag.research","tag.documentation"],
     "previewType": "pdf",
-    "image": "/projects/work-life-balance-cover.jpg",
+    "image": "/projects/work-life-balance-cover.webp",
     "imageAltKey": "proj.workLifeBalance.alt",
     "previewUrl": "/projects/worklife.pdf",
     "links": []
@@ -65,9 +65,9 @@
     "contextKey": "projects.context.academic",
     "tags": [ "tag.research", "tag.consumerBehavior", "tag.communicationApps", "tag.socialMedia" ],
     "previewType": "image",
-    "image": "/projects/chart.png",
+    "image": "/projects/chart.webp",
     "imageAltKey": "proj.chart.alt",
-    "previewUrl": "/projects/chart.png",
+    "previewUrl": "/projects/chart.webp",
     "links": [
       {
         "labelKey": "cta.readMore",
@@ -84,9 +84,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.homelab", "tag.qnap", "tag.minecraft", "tag.docs" ],
     "previewType": "image",
-    "image": "/projects/qnap-minecraft.jpg",
+    "image": "/projects/qnap-minecraft.webp",
     "imageAltKey": "proj.qnapMinecraft.alt",
-    "previewUrl": "/projects/qnap-minecraft.jpg",
+    "previewUrl": "/projects/qnap-minecraft.webp",
     "links": [
       {
         "labelKey": "footer.github",
@@ -102,9 +102,9 @@
     "contextKey": "projects.context.academic",
     "tags": [ "tag.networking", "tag.packet-tracer", "tag.simulation" ],
     "previewType": "image",
-    "image": "/projects/packet-tracer.jpg",
+    "image": "/projects/packet-tracer.webp",
     "imageAltKey": "proj.packetTracer.alt",
-    "previewUrl": "/projects/packet-tracer.jpg",
+    "previewUrl": "/projects/packet-tracer.webp",
     "links": [
       {
         "labelKey": "cta.readMore",
