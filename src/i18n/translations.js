@@ -263,21 +263,21 @@ export const translations = {
         "proj.craImageSigning.desc":
             "Blue-team work during my internship at AmplifySoft: preparing container releases for the EU Cyber Resilience Act. Multi-arch (ARM64/x64) Docker images signed with cosign in GitHub Actions, plus a public security repository for key distribution and signature verification.",
         "proj.craImageSigning.alt":
-            "Cover for the EU CRA compliance project: signed multi-arch Docker releases",
+            "Official EU Cyber Resilience Act banner: a shield with a checkmark and the tagline “for safer & more secure digital products”",
 
         // ===== PROJECT: Metso — Self-Hosted AI Agent =====
         "proj.metso.title": "Metso — Self-Hosted AI Agent on a NAS",
         "proj.metso.desc":
             "A personal AI agent built on Hermes Agent, running 24/7 on my QNAP NAS: OpenRouter for models, Telegram as the interface, and access locked behind Tailscale. Includes scheduled skills like a nightly journal and automated backup rotation.",
         "proj.metso.alt":
-            "Cover for Metso, the self-hosted AI agent running on a QNAP NAS",
+            "Black-and-white illustration of the Hermes Agent mascot: an anime-style girl with a headband",
 
         // ===== PROJECT: AdGuard Home + Tailscale DNS =====
         "proj.adguardDns.title": "Network-Wide Ad Blocking — AdGuard Home + Tailscale",
         "proj.adguardDns.desc":
             "Replaced a paid DNS filtering service with self-hosted AdGuard Home on my NAS, using HaGeZi blocklists. Tailscale turns it into on-demand private DNS from my phone, anywhere.",
         "proj.adguardDns.alt":
-            "Cover for the network-wide ad blocking setup with AdGuard Home and Tailscale",
+            "Tailscale logo: a three-by-three grid of white and grey dots on a dark background",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Academic project",
@@ -600,21 +600,21 @@ export const translations = {
         "proj.craImageSigning.desc":
             "Trabajo de blue team durante mis prácticas en AmplifySoft: preparación de releases de contenedores para el Cyber Resilience Act de la UE. Imágenes Docker multi-arquitectura (ARM64/x64) firmadas con cosign en GitHub Actions, más un repositorio público de seguridad para distribuir claves y verificar firmas.",
         "proj.craImageSigning.alt":
-            "Portada del proyecto de cumplimiento del CRA (UE): releases de Docker multi-arquitectura firmadas",
+            "Banner oficial del Cyber Resilience Act de la UE: un escudo con una marca de verificación y el lema “for safer & more secure digital products”",
 
         // ===== PROJECT: Metso — Self-Hosted AI Agent =====
         "proj.metso.title": "Metso — Agente de IA autoalojado en un NAS",
         "proj.metso.desc":
             "Un agente de IA personal construido sobre Hermes Agent, funcionando 24/7 en mi NAS QNAP: OpenRouter para los modelos, Telegram como interfaz y acceso protegido tras Tailscale. Incluye skills programadas como un diario nocturno y rotación automática de copias de seguridad.",
         "proj.metso.alt":
-            "Portada de Metso, el agente de IA autoalojado que corre en un NAS QNAP",
+            "Ilustración en blanco y negro de la mascota de Hermes Agent: una chica estilo anime con diadema",
 
         // ===== PROJECT: AdGuard Home + Tailscale DNS =====
         "proj.adguardDns.title": "Bloqueo de anuncios a nivel de red — AdGuard Home + Tailscale",
         "proj.adguardDns.desc":
             "Sustituí un servicio de pago de filtrado DNS por AdGuard Home autoalojado en mi NAS, con las blocklists de HaGeZi. Tailscale lo convierte en DNS privado bajo demanda desde el móvil, estés donde estés.",
         "proj.adguardDns.alt":
-            "Portada del montaje de bloqueo de anuncios a nivel de red con AdGuard Home y Tailscale",
+            "Logo de Tailscale: una cuadrícula de tres por tres puntos blancos y grises sobre fondo oscuro",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Proyecto académico",
