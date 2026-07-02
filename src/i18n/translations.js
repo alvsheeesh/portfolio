@@ -254,6 +254,8 @@ export const translations = {
         "proj.pcConsumerBehavior.title": "P.C. Consumer Behavior Analysis",
         "proj.pcConsumerBehavior.desc":
             "Analysis of how students and young adults choose between communication apps such as Discord, WhatsApp and Instagram Direct.",
+        "proj.chart.alt":
+            "Bar chart comparing how students and young adults use Discord, WhatsApp and Instagram Direct",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Academic project",
@@ -277,8 +279,6 @@ export const translations = {
         "tag.astro": "Astro",
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internationalization",
-
-        "projects.status.completed": "Completed",
 
         // ===== PROJECT: Work-Life Balance Guide =====
         "proj.workLifeBalance.title": "Work-Life Balance Guide for Employees",
@@ -551,6 +551,8 @@ export const translations = {
         "proj.pcConsumerBehavior.title": "Análisis del comportamiento del consumidor (P.C.)",
         "proj.pcConsumerBehavior.desc":
             "Análisis de cómo estudiantes y jóvenes adultos eligen entre aplicaciones de comunicación como Discord, WhatsApp e Instagram Direct.",
+        "proj.chart.alt":
+            "Gráfico de barras que compara el uso de Discord, WhatsApp e Instagram Direct entre estudiantes y jóvenes adultos",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Proyecto académico",
@@ -575,7 +577,6 @@ export const translations = {
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internacionalización",
 
-        "projects.status.completed": "Completado",
         // ===== PROJECT: Work-Life Balance Guide =====
         "proj.workLifeBalance.title": "Guía de conciliación entre vida personal y profesional",
 

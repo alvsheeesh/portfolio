@@ -58,18 +58,6 @@ export function initI18n() {
   const lang = getStoredLanguage();
   applyLanguage(lang);
 
-  // Delegación de click para el botón 🌐
-  document.addEventListener("click", (e) => {
-    const btn = e.target.closest?.("[data-lang-toggle]");
-    if (!btn) return;
-    const current = document.documentElement.dataset.lang || getStoredLanguage();
-    const next = current === "en" ? "es" : "en";
-    applyLanguage(next);
-    // Evento opcional para otros componentes
-    window.dispatchEvent(new CustomEvent("languageChanged", { detail: { lang: next } }));
-    console.log("[i18n] switched to:", next);
-  });
-
   // API global para depuración manual desde consola
   window.__i18n = { applyLanguage, initI18n, translations, getStoredLanguage };
 }
@@ -81,4 +69,3 @@ export function getCurrentLanguage() {
     return "en";
   }
 }
-``
