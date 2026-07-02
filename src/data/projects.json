@@ -8,9 +8,9 @@
     "contextKey": "projects.context.professional",
     "tags": [ "tag.security", "tag.blueTeam", "tag.cra", "tag.docker", "tag.githubActions", "tag.supplyChain" ],
     "previewType": "image",
-    "image": "/projects/cra-signing.svg",
+    "image": "/projects/cra.png",
     "imageAltKey": "proj.craImageSigning.alt",
-    "previewUrl": "/projects/cra-signing.svg",
+    "previewUrl": "/projects/cra.png",
     "links": []
   },
 
@@ -22,9 +22,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.ai", "tag.selfHosted", "tag.homelab", "tag.telegram", "tag.tailscale" ],
     "previewType": "image",
-    "image": "/projects/metso-agent.svg",
+    "image": "/projects/hermes.png",
     "imageAltKey": "proj.metso.alt",
-    "previewUrl": "/projects/metso-agent.svg",
+    "previewUrl": "/projects/hermes.png",
     "links": []
   },
 
@@ -36,9 +36,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.dns", "tag.privacy", "tag.selfHosted", "tag.adguardHome", "tag.tailscale" ],
     "previewType": "image",
-    "image": "/projects/adguard-dns.svg",
+    "image": "/projects/tailscale.jpg",
     "imageAltKey": "proj.adguardDns.alt",
-    "previewUrl": "/projects/adguard-dns.svg",
+    "previewUrl": "/projects/tailscale.jpg",
     "links": []
   },
 
