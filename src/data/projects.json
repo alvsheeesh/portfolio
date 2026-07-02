@@ -2,6 +2,7 @@
 
   {
     "id": "pc-work-life-balance",
+    "hidden": true,
     "titleKey": "proj.workLifeBalance.title",
     "descKey": "proj.workLifeBalance.desc",
     "statusKey": "projects.status.done",
