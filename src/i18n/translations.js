@@ -101,7 +101,7 @@ export const translations = {
         "about.section.background.p1":
             "Currently interning at AmplifySoft, working on real projects while finishing my studies. I start DAM next year. I like building things that actually work and writing down how I did it.",
         "about.section.background.p2":
-            "My homelab runs Pi-hole and a Minecraft server on a QNAP NAS — with a local AI agent planned next. On the software side, I try to think about security from the start, not bolt it on at the end.",
+            "My homelab runs AdGuard Home, a Minecraft server and Metso — my self-hosted AI agent — all on a QNAP NAS. On the software side, I try to think about security from the start, not bolt it on at the end.",
 
         // Education / Certs / Experience
         "about.section.education.title": "Education",
@@ -114,6 +114,7 @@ export const translations = {
         "about.section.experience.title": "Experience",
         "about.section.experience.item1": "Internship at AmplifySoft — real projects while finishing studies",
         "about.section.experience.item2": "Homelab (QNAP) setup: services, access control, backups",
+        "about.section.experience.item3": "Blue team: EU CRA compliance — signed Docker releases (cosign + GitHub Actions)",
 
         // Interests & Goals
         "about.section.interests.title": "Interests, goals & motivation",
@@ -203,7 +204,7 @@ export const translations = {
             "A mix: academic work, development projects, homelab setups, and CTF writeups when I play. No fixed type — whatever I'm learning at the time.",
         "faq.q4.q": "Do you self-host anything?",
         "faq.q4.a":
-            "Yes — Pi-hole for network-level ad blocking and a Minecraft server, both on my QNAP NAS. I’m also looking at running a local AI agent (Hermes AI) on it.",
+            "Yes — AdGuard Home for network-level ad blocking and a Minecraft server, both on my QNAP NAS. It also runs Metso, my self-hosted AI agent (built on Hermes Agent).",
         "faq.q5.q": "How can someone contact you?",
         "faq.q5.a": "Use the contact page or email — the form is demo-only for security.",
 
@@ -257,9 +258,31 @@ export const translations = {
         "proj.chart.alt":
             "Bar chart comparing how students and young adults use Discord, WhatsApp and Instagram Direct",
 
+        // ===== PROJECT: EU CRA — Signed Docker Releases =====
+        "proj.craImageSigning.title": "EU CRA Compliance — Signed Docker Releases",
+        "proj.craImageSigning.desc":
+            "Blue-team work during my internship at AmplifySoft: preparing container releases for the EU Cyber Resilience Act. Multi-arch (ARM64/x64) Docker images signed with cosign in GitHub Actions, plus a public security repository for key distribution and signature verification.",
+        "proj.craImageSigning.alt":
+            "Cover for the EU CRA compliance project: signed multi-arch Docker releases",
+
+        // ===== PROJECT: Metso — Self-Hosted AI Agent =====
+        "proj.metso.title": "Metso — Self-Hosted AI Agent on a NAS",
+        "proj.metso.desc":
+            "A personal AI agent built on Hermes Agent, running 24/7 on my QNAP NAS: OpenRouter for models, Telegram as the interface, and access locked behind Tailscale. Includes scheduled skills like a nightly journal and automated backup rotation.",
+        "proj.metso.alt":
+            "Cover for Metso, the self-hosted AI agent running on a QNAP NAS",
+
+        // ===== PROJECT: AdGuard Home + Tailscale DNS =====
+        "proj.adguardDns.title": "Network-Wide Ad Blocking — AdGuard Home + Tailscale",
+        "proj.adguardDns.desc":
+            "Replaced a paid DNS filtering service with self-hosted AdGuard Home on my NAS, using HaGeZi blocklists. Tailscale turns it into on-demand private DNS from my phone, anywhere.",
+        "proj.adguardDns.alt":
+            "Cover for the network-wide ad blocking setup with AdGuard Home and Tailscale",
+
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Academic project",
         "projects.context.personal": "Personal project",
+        "projects.context.professional": "Professional project",
 
         // ===== TAGS =====
         "tag.research": "Research",
@@ -279,6 +302,22 @@ export const translations = {
         "tag.astro": "Astro",
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internationalization",
+
+        "tag.security": "Security",
+        "tag.blueTeam": "Blue team",
+        "tag.cra": "CRA",
+        "tag.docker": "Docker",
+        "tag.githubActions": "GitHub Actions",
+        "tag.supplyChain": "Supply chain",
+
+        "tag.ai": "AI",
+        "tag.selfHosted": "Self-hosted",
+        "tag.telegram": "Telegram",
+        "tag.tailscale": "Tailscale",
+
+        "tag.dns": "DNS",
+        "tag.privacy": "Privacy",
+        "tag.adguardHome": "AdGuard Home",
 
         // ===== PROJECT: Work-Life Balance Guide =====
         "proj.workLifeBalance.title": "Work-Life Balance Guide for Employees",
@@ -396,7 +435,7 @@ export const translations = {
         "about.section.background.p1":
             "Actualmente haciendo prácticas en AmplifySoft, trabajando en proyectos reales mientras termino mis estudios. El año que viene empiezo DAM. Me gusta construir cosas que funcionen y escribir cómo las he hecho.",
         "about.section.background.p2":
-            "En el homelab tengo Pi-hole y un servidor de Minecraft en un NAS QNAP, con un agente de IA local en mente para lo próximo. En el lado del software, intento pensar en seguridad desde el principio, no añadirla al final.",
+            "En el homelab tengo AdGuard Home, un servidor de Minecraft y Metso — mi agente de IA autoalojado — todo en un NAS QNAP. En el lado del software, intento pensar en seguridad desde el principio, no añadirla al final.",
 
         // Educación / Certificaciones / Experiencia
         "about.section.education.title": "Formación",
@@ -413,6 +452,8 @@ export const translations = {
             "Prácticas en AmplifySoft — proyectos reales mientras termino los estudios",
         "about.section.experience.item2":
             "Homelab (QNAP): servicios, control de accesos y copias",
+        "about.section.experience.item3":
+            "Blue team: cumplimiento del CRA (UE) — releases de Docker firmadas (cosign + GitHub Actions)",
 
         // Intereses y objetivos
         "about.section.interests.title": "Intereses, objetivos y motivación",
@@ -502,7 +543,7 @@ export const translations = {
             "Un mix: proyectos académicos, desarrollo, configuraciones del homelab y writeups de CTFs cuando juego. Sin tipo fijo — lo que esté aprendiendo en cada momento.",
         "faq.q4.q": "¿Autoalojas algún servicio?",
         "faq.q4.a":
-            "Sí — Pi-hole para bloquear anuncios a nivel de red y un servidor de Minecraft, ambos en mi NAS QNAP. También tengo en mente montar un agente de IA local (Hermes AI).",
+            "Sí — AdGuard Home para bloquear anuncios a nivel de red y un servidor de Minecraft, ambos en mi NAS QNAP. También corre Metso, mi agente de IA autoalojado (construido sobre Hermes Agent).",
         "faq.q5.q": "¿Cómo pueden contactarte?",
         "faq.q5.a":
             "Usa la página de contacto o email — el formulario es solo demo por seguridad.",
@@ -554,9 +595,31 @@ export const translations = {
         "proj.chart.alt":
             "Gráfico de barras que compara el uso de Discord, WhatsApp e Instagram Direct entre estudiantes y jóvenes adultos",
 
+        // ===== PROJECT: EU CRA — Signed Docker Releases =====
+        "proj.craImageSigning.title": "Cumplimiento del CRA (UE) — Releases de Docker firmadas",
+        "proj.craImageSigning.desc":
+            "Trabajo de blue team durante mis prácticas en AmplifySoft: preparación de releases de contenedores para el Cyber Resilience Act de la UE. Imágenes Docker multi-arquitectura (ARM64/x64) firmadas con cosign en GitHub Actions, más un repositorio público de seguridad para distribuir claves y verificar firmas.",
+        "proj.craImageSigning.alt":
+            "Portada del proyecto de cumplimiento del CRA (UE): releases de Docker multi-arquitectura firmadas",
+
+        // ===== PROJECT: Metso — Self-Hosted AI Agent =====
+        "proj.metso.title": "Metso — Agente de IA autoalojado en un NAS",
+        "proj.metso.desc":
+            "Un agente de IA personal construido sobre Hermes Agent, funcionando 24/7 en mi NAS QNAP: OpenRouter para los modelos, Telegram como interfaz y acceso protegido tras Tailscale. Incluye skills programadas como un diario nocturno y rotación automática de copias de seguridad.",
+        "proj.metso.alt":
+            "Portada de Metso, el agente de IA autoalojado que corre en un NAS QNAP",
+
+        // ===== PROJECT: AdGuard Home + Tailscale DNS =====
+        "proj.adguardDns.title": "Bloqueo de anuncios a nivel de red — AdGuard Home + Tailscale",
+        "proj.adguardDns.desc":
+            "Sustituí un servicio de pago de filtrado DNS por AdGuard Home autoalojado en mi NAS, con las blocklists de HaGeZi. Tailscale lo convierte en DNS privado bajo demanda desde el móvil, estés donde estés.",
+        "proj.adguardDns.alt":
+            "Portada del montaje de bloqueo de anuncios a nivel de red con AdGuard Home y Tailscale",
+
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Proyecto académico",
         "projects.context.personal": "Proyecto personal",
+        "projects.context.professional": "Proyecto profesional",
 
         // ===== TAGS =====
         "tag.research": "Investigación",
@@ -576,6 +639,22 @@ export const translations = {
         "tag.astro": "Astro",
         "tag.tailwind": "Tailwind",
         "tag.i18n": "Internacionalización",
+
+        "tag.security": "Seguridad",
+        "tag.blueTeam": "Blue team",
+        "tag.cra": "CRA",
+        "tag.docker": "Docker",
+        "tag.githubActions": "GitHub Actions",
+        "tag.supplyChain": "Cadena de suministro",
+
+        "tag.ai": "IA",
+        "tag.selfHosted": "Autoalojado",
+        "tag.telegram": "Telegram",
+        "tag.tailscale": "Tailscale",
+
+        "tag.dns": "DNS",
+        "tag.privacy": "Privacidad",
+        "tag.adguardHome": "AdGuard Home",
 
         // ===== PROJECT: Work-Life Balance Guide =====
         "proj.workLifeBalance.title": "Guía de conciliación entre vida personal y profesional",

@@ -1,6 +1,48 @@
 [
 
   {
+    "id": "cra-image-signing",
+    "titleKey": "proj.craImageSigning.title",
+    "descKey": "proj.craImageSigning.desc",
+    "statusKey": "projects.status.done",
+    "contextKey": "projects.context.professional",
+    "tags": [ "tag.security", "tag.blueTeam", "tag.cra", "tag.docker", "tag.githubActions", "tag.supplyChain" ],
+    "previewType": "image",
+    "image": "/projects/cra-signing.svg",
+    "imageAltKey": "proj.craImageSigning.alt",
+    "previewUrl": "/projects/cra-signing.svg",
+    "links": []
+  },
+
+  {
+    "id": "metso-ai-agent",
+    "titleKey": "proj.metso.title",
+    "descKey": "proj.metso.desc",
+    "statusKey": "projects.status.done",
+    "contextKey": "projects.context.personal",
+    "tags": [ "tag.ai", "tag.selfHosted", "tag.homelab", "tag.telegram", "tag.tailscale" ],
+    "previewType": "image",
+    "image": "/projects/metso-agent.svg",
+    "imageAltKey": "proj.metso.alt",
+    "previewUrl": "/projects/metso-agent.svg",
+    "links": []
+  },
+
+  {
+    "id": "adguard-tailscale-dns",
+    "titleKey": "proj.adguardDns.title",
+    "descKey": "proj.adguardDns.desc",
+    "statusKey": "projects.status.done",
+    "contextKey": "projects.context.personal",
+    "tags": [ "tag.dns", "tag.privacy", "tag.selfHosted", "tag.adguardHome", "tag.tailscale" ],
+    "previewType": "image",
+    "image": "/projects/adguard-dns.svg",
+    "imageAltKey": "proj.adguardDns.alt",
+    "previewUrl": "/projects/adguard-dns.svg",
+    "links": []
+  },
+
+  {
     "id": "pc-work-life-balance",
     "hidden": true,
     "titleKey": "proj.workLifeBalance.title",
