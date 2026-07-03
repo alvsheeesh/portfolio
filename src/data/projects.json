@@ -22,9 +22,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.ai", "tag.selfHosted", "tag.homelab", "tag.telegram", "tag.tailscale" ],
     "previewType": "image",
-    "image": "/projects/hermes.png",
+    "image": "/projects/hermes.webp",
     "imageAltKey": "proj.metso.alt",
-    "previewUrl": "/projects/hermes.png",
+    "previewUrl": "/projects/hermes.webp",
     "links": []
   },
 
@@ -36,9 +36,9 @@
     "contextKey": "projects.context.personal",
     "tags": [ "tag.dns", "tag.privacy", "tag.selfHosted", "tag.adguardHome", "tag.tailscale" ],
     "previewType": "image",
-    "image": "/projects/tailscale.webp",
+    "image": "/projects/adguard-dashboard.webp",
     "imageAltKey": "proj.adguardDns.alt",
-    "previewUrl": "/projects/tailscale.webp",
+    "previewUrl": "/projects/adguard-dashboard.webp",
     "links": []
   },
 

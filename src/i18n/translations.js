@@ -270,14 +270,14 @@ export const translations = {
         "proj.metso.desc":
             "A personal AI agent built on Hermes Agent, running 24/7 on my QNAP NAS: OpenRouter for models, Telegram as the interface, and access locked behind Tailscale. Includes scheduled skills like a nightly journal and automated backup rotation.",
         "proj.metso.alt":
-            "Black-and-white illustration of the Hermes Agent mascot: an anime-style girl with a headband",
+            "Screenshot of the Hermes Agent dashboard showing the achievements panel, with unlocked and discovered badges",
 
         // ===== PROJECT: AdGuard Home + Tailscale DNS =====
         "proj.adguardDns.title": "Network-Wide Ad Blocking — AdGuard Home + Tailscale",
         "proj.adguardDns.desc":
             "Replaced a paid DNS filtering service with self-hosted AdGuard Home on my NAS, using HaGeZi blocklists. Tailscale turns it into on-demand private DNS from my phone, anywhere.",
         "proj.adguardDns.alt":
-            "Tailscale logo: a three-by-three grid of white and grey dots on a dark background",
+            "Screenshot of the AdGuard Home dashboard showing DNS query stats, filtered requests, and top blocked domains",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Academic project",
@@ -607,14 +607,14 @@ export const translations = {
         "proj.metso.desc":
             "Un agente de IA personal construido sobre Hermes Agent, funcionando 24/7 en mi NAS QNAP: OpenRouter para los modelos, Telegram como interfaz y acceso protegido tras Tailscale. Incluye skills programadas como un diario nocturno y rotación automática de copias de seguridad.",
         "proj.metso.alt":
-            "Ilustración en blanco y negro de la mascota de Hermes Agent: una chica estilo anime con diadema",
+            "Captura del panel de Hermes Agent mostrando los logros, con insignias desbloqueadas y descubiertas",
 
         // ===== PROJECT: AdGuard Home + Tailscale DNS =====
         "proj.adguardDns.title": "Bloqueo de anuncios a nivel de red — AdGuard Home + Tailscale",
         "proj.adguardDns.desc":
             "Sustituí un servicio de pago de filtrado DNS por AdGuard Home autoalojado en mi NAS, con las blocklists de HaGeZi. Tailscale lo convierte en DNS privado bajo demanda desde el móvil, estés donde estés.",
         "proj.adguardDns.alt":
-            "Logo de Tailscale: una cuadrícula de tres por tres puntos blancos y grises sobre fondo oscuro",
+            "Captura del panel de control de AdGuard Home con estadísticas de consultas DNS, peticiones filtradas y dominios más bloqueados",
 
         // ===== PROJECT CONTEXT =====
         "projects.context.academic": "Proyecto académico",
